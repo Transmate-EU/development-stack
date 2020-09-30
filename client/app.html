@@ -1,0 +1,88 @@
+<template name="AppLayout">
+  <div class="ui very wide sidebar right">
+    {{> Template.dynamic template=sidebar}}
+  </div>
+  <div class="pusher">
+    <div class="app">
+      {{#if isIE}}
+      {{#Modal title=(_ 'browser.title') closable=false}}
+      <div class="content">
+        {{_ 'browser.options'}}
+      </div>
+      <div class="actions">
+        <a class="ui primary button" href="https://www.google.com/chrome/browser/desktop">
+          {{_ 'browser.getchrome'}}
+        </a>
+      </div>
+      {{/Modal}}
+      {{/if}}
+
+      <header class="{{#if state 'searching'}}searching{{/if}}">
+        <a class="logo" href="/"><img src="/images/logo-transmate-t.svg"></a>
+        {{#unless noGeneralSearch}}
+        {{> SearchHeader}}
+        {{/unless}}
+
+        {{#if header}}
+        {{> Template.dynamic template=header data=headerData}}
+        {{/if}}
+
+
+
+        <div class="ui compact menu user">
+          {{> HeaderTasks}}
+          {{> HeaderConversations}}
+          {{> HeaderNotifications}}
+          {{> UserMenu}}
+
+        </div>
+      </header>
+      <div>
+        {{> React NavBar}}
+      </div>
+      <div class="contentContainer"> {{! scroll container}}
+        <div> {{! flex container — for equal column height}}
+          {{#if reactMain}}
+          <main class="{{reactMain}}">
+            {{> Template.dynamic template=reactMain}}
+          </main>
+          {{else}}
+          <main class="{{main}}">
+            <div>
+              {{> Template.dynamic template=main}}
+            </div>
+          </main>
+          {{/if}}
+
+          <aside class="{{expanded aside}} {{#if state 'asside-minimized'}}minimized{{/if}}">
+            {{#if state 'asside-minimized'}}
+            <a class="ui left floated icon minimize"><i class='large angle left icon'></i></a>
+            {{else}}
+            <a class="ui center floated icon minimize"><i class='large angle right icon'></i></a>
+            {{> Template.dynamic template=aside }}
+
+            {{/if}}
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui page dimmer modals"></div>
+
+  {{> sAlert template='sAlertCustom'}}
+
+
+  {{#if isProduction}}
+  <script>
+    $crisp.push(["safe", true])
+  </script>
+  {{#with currentUser}}
+  <script>
+    $crisp.push(["set", "user:email", "{{email}}"])
+  </script>
+
+  {{/with}}
+  {{/if}}
+  {{> introDemo }}
+</template>
