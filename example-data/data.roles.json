@@ -1,0 +1,519 @@
+[
+  {
+    "_id": "user",
+    "children": []
+  },
+  {
+    "_id": "planner",
+    "children": [
+      {
+        "_id": "core-shipment-create"
+      },
+      {
+        "_id": "core-shipment-update"
+      },
+      {
+        "_id": "core-shipment-remove"
+      },
+      {
+        "_id": "core-shipment-cancel"
+      },
+      {
+        "_id": "core-shipment-editItems"
+      },
+      {
+        "_id": "core-shipment-editEquipments"
+      },
+      {
+        "_id": "core-shipment-editNotes"
+      },
+      {
+        "_id": "core-shipment-editReferences"
+      },
+      {
+        "_id": "core-shipment-editDocuments"
+      },
+      {
+        "_id": "core-shipment-stage-update"
+      },
+      {
+        "_id": "core-shipment-stage-setStatus"
+      },
+      {
+        "_id": "core-shipment-stage-assign"
+      },
+      {
+        "_id": "core-account-editAccountPortal"
+      },
+      {
+        "_id": "core-account-editFuelModel"
+      },
+      {
+        "_id": "core-partners-addToFavorites"
+      },
+      {
+        "_id": "core-partners-annotate"
+      },
+      {
+        "_id": "core-address-create"
+      },
+      {
+        "_id": "core-address-remove"
+      },
+      {
+        "_id": "core-address-update"
+      },
+      {
+        "_id": "core-priceRequest-create"
+      },
+      {
+        "_id": "core-priceRequest-createForShipment"
+      },
+      {
+        "_id": "core-priceRequest-update"
+      },
+      {
+        "_id": "core-priceRequest-remove"
+      },
+      {
+        "_id": "core-shipment-stage-allocate"
+      },
+      {
+        "_id": "core-priceRequest-createForShipmentMass"
+      },
+      {
+        "_id": "core-priceRequest-edit-settings"
+      },
+      {
+        "_id": "core-priceRequest-edit-requirements"
+      }
+    ]
+  },
+  {
+    "_id": "partners",
+    "children": [
+      {
+        "_id": "core-partners-create"
+      },
+      {
+        "_id": "core-partners-remove"
+      },
+      {
+        "_id": "core-partners-acceptRejectRequest"
+      },
+      {
+        "_id": "core-partners-addToFavorites"
+      },
+      {
+        "_id": "core-partners-annotate"
+      }
+    ]
+  },
+  {
+    "_id": "driver",
+    "children": []
+  },
+  {
+    "_id": "core-tender-update",
+    "children": []
+  },
+  {
+    "_id": "core-tender-remove",
+    "children": []
+  },
+  {
+    "_id": "core-tender-create",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-viewCosts",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-updateManualCost",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-update",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-stage-update",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-stage-setStatus",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-stage-assign",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-stage-allocate",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-remove",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-project-view",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-project-edit",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-project-create",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-editReferences",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-editNotes",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-editItems",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-editEquipments",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-editDocuments",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-create",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-cancel",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-approveDeclineCost",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-addManualCost",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-addCostFromInvoice",
+    "children": []
+  },
+  {
+    "_id": "core-shipment-addBaseCost",
+    "children": []
+  },
+  {
+    "_id": "core-priceRequest-update",
+    "children": []
+  },
+  {
+    "_id": "core-priceRequest-remove",
+    "children": []
+  },
+  {
+    "_id": "core-priceRequest-edit-settings",
+    "children": []
+  },
+  {
+    "_id": "core-priceRequest-edit-requirements",
+    "children": []
+  },
+  {
+    "_id": "core-priceRequest-createForShipmentMass",
+    "children": []
+  },
+  {
+    "_id": "core-priceRequest-createForShipment",
+    "children": []
+  },
+  {
+    "_id": "core-priceRequest-create",
+    "children": []
+  },
+  {
+    "_id": "core-priceList-update",
+    "children": []
+  },
+  {
+    "_id": "core-priceList-remove",
+    "children": []
+  },
+  {
+    "_id": "core-priceList-deleteAttachment",
+    "children": []
+  },
+  {
+    "_id": "core-priceList-create",
+    "children": []
+  },
+  {
+    "_id": "core-priceList-canSetStatus",
+    "children": []
+  },
+  {
+    "_id": "core-priceList-addAttachment",
+    "children": []
+  },
+  {
+    "_id": "core-partners-remove",
+    "children": []
+  },
+  {
+    "_id": "core-partners-create",
+    "children": []
+  },
+  {
+    "_id": "core-partners-annotate",
+    "children": []
+  },
+  {
+    "_id": "core-partners-addToFavorites",
+    "children": []
+  },
+  {
+    "_id": "core-partners-acceptRejectRequest",
+    "children": []
+  },
+  {
+    "_id": "core-address-update",
+    "children": []
+  },
+  {
+    "_id": "core-address-remove",
+    "children": []
+  },
+  {
+    "_id": "core-address-create",
+    "children": []
+  },
+  {
+    "_id": "core-account-removeUsers",
+    "children": []
+  },
+  {
+    "_id": "core-account-editUsers",
+    "children": []
+  },
+  {
+    "_id": "core-account-editFuelModel",
+    "children": []
+  },
+  {
+    "_id": "core-account-editAccountPortal",
+    "children": []
+  },
+  {
+    "_id": "core-account-addUsers",
+    "children": []
+  },
+  {
+    "_id": "analyst",
+    "children": []
+  },
+  {
+    "_id": "admin",
+    "children": [
+      {
+        "_id": "core-shipment-create"
+      },
+      {
+        "_id": "core-shipment-update"
+      },
+      {
+        "_id": "core-shipment-remove"
+      },
+      {
+        "_id": "core-shipment-cancel"
+      },
+      {
+        "_id": "core-shipment-addBaseCost"
+      },
+      {
+        "_id": "core-shipment-addManualCost"
+      },
+      {
+        "_id": "core-shipment-updateManualCost"
+      },
+      {
+        "_id": "core-shipment-approveDeclineCost"
+      },
+      {
+        "_id": "core-shipment-addCostFromInvoice"
+      },
+      {
+        "_id": "core-shipment-editItems"
+      },
+      {
+        "_id": "core-shipment-editEquipments"
+      },
+      {
+        "_id": "core-shipment-editNotes"
+      },
+      {
+        "_id": "core-shipment-editReferences"
+      },
+      {
+        "_id": "core-shipment-editDocuments"
+      },
+      {
+        "_id": "core-shipment-stage-update"
+      },
+      {
+        "_id": "core-shipment-stage-setStatus"
+      },
+      {
+        "_id": "core-shipment-stage-assign"
+      },
+      {
+        "_id": "core-shipment-stage-allocate"
+      },
+      {
+        "_id": "core-account-editUsers"
+      },
+      {
+        "_id": "core-account-addUsers"
+      },
+      {
+        "_id": "core-account-removeUsers"
+      },
+      {
+        "_id": "core-account-editAccountPortal"
+      },
+      {
+        "_id": "core-account-editFuelModel"
+      },
+      {
+        "_id": "core-partners-create"
+      },
+      {
+        "_id": "core-partners-remove"
+      },
+      {
+        "_id": "core-partners-acceptRejectRequest"
+      },
+      {
+        "_id": "core-partners-addToFavorites"
+      },
+      {
+        "_id": "core-partners-annotate"
+      },
+      {
+        "_id": "core-address-create"
+      },
+      {
+        "_id": "core-address-remove"
+      },
+      {
+        "_id": "core-address-update"
+      },
+      {
+        "_id": "core-priceList-create"
+      },
+      {
+        "_id": "core-priceList-remove"
+      },
+      {
+        "_id": "core-priceList-update"
+      },
+      {
+        "_id": "core-priceList-addAttachment"
+      },
+      {
+        "_id": "core-priceList-deleteAttachment"
+      },
+      {
+        "_id": "core-priceList-canSetStatus"
+      },
+      {
+        "_id": "core-priceRequest-create"
+      },
+      {
+        "_id": "core-priceRequest-createForShipment"
+      },
+      {
+        "_id": "core-priceRequest-update"
+      },
+      {
+        "_id": "core-priceRequest-remove"
+      },
+      {
+        "_id": "core-tender-create"
+      },
+      {
+        "_id": "core-tender-remove"
+      },
+      {
+        "_id": "core-tender-update"
+      },
+      {
+        "_id": "core-priceRequest-createForShipmentMass"
+      },
+      {
+        "_id": "core-priceRequest-edit-settings"
+      },
+      {
+        "_id": "core-priceRequest-edit-requirements"
+      },
+      {
+        "_id": "core-shipment-viewCosts"
+      },
+      {
+        "_id": "core-shipment-project-create"
+      },
+      {
+        "_id": "core-shipment-project-edit"
+      },
+      {
+        "_id": "core-shipment-project-view"
+      }
+    ]
+  },
+  {
+    "_id": "address",
+    "children": [
+      {
+        "_id": "core-address-create"
+      },
+      {
+        "_id": "core-address-remove"
+      },
+      {
+        "_id": "core-address-update"
+      }
+    ]
+  },
+  {
+    "_id": "accounting",
+    "children": [
+      {
+        "_id": "core-shipment-viewCosts"
+      },
+      {
+        "_id": "core-shipment-addBaseCost"
+      },
+      {
+        "_id": "core-shipment-addManualCost"
+      },
+      {
+        "_id": "core-shipment-updateManualCost"
+      },
+      {
+        "_id": "core-shipment-approveDeclineCost"
+      },
+      {
+        "_id": "core-shipment-addCostFromInvoice"
+      }
+    ]
+  }
+]

@@ -1,0 +1,446 @@
+[
+  {
+    "_id": "zx43GEoqXk66umzNS",
+    "title": "Test tender title",
+    "contacts": [
+      {
+        "userId": "jsBor6o3uRBTFoRQY",
+        "role": "owner"
+      }
+    ],
+    "status": "open",
+    "created": {
+      "by": "jsBor6o3uRBTFoRQY",
+      "at": { "$date": "2019-11-28T13:10:49.707Z" }
+    },
+    "accountId": "S65957",
+    "number": "XHNVN6",
+    "updated": {
+      "by": "jsBor6o3uRBTFoRQY",
+      "at": { "$date": "2019-11-28T13:11:56.941Z" }
+    },
+    "deleted": false,
+    "steps": ["general", "requirements", "scope", "data", "profile"],
+    "timeline": [
+      {
+        "title": "milestone title",
+        "details": "milestone text",
+        "date": { "$date": "2019-11-20T23:00:00.000Z" }
+      }
+    ],
+    "notes": {
+      "introduction": "some notes here...",
+      "procedure": "some notes here..."
+    },
+    "FAQ": [],
+    "requirements": [
+      {
+        "title": "requirement title 1",
+        "details": "requirement details 1",
+        "type": "hard",
+        "responseType": "YN",
+        "id": "MzWavs"
+      },
+      {
+        "title": "requirement title 3",
+        "details": "requirement details 3",
+        "type": "hard",
+        "responseType": "list",
+        "responseOptions": ["o", "option 3"],
+        "id": "ctBuaq"
+      }
+    ],
+    "params": {
+      "NDA": {
+        "required": true,
+        "type": "default"
+      },
+      "bid": {
+        "types": ["priceList", "open", "file"]
+      }
+    },
+    "scope": {
+      "lanes": [
+        {
+          "name": "Granada",
+          "from": {
+            "zones": [
+              {
+                "CC": "BE",
+                "from": "*"
+              }
+            ]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "18000",
+                "to": "18999"
+              }
+            ]
+          },
+          "incoterm": "FCA",
+          "id": "LCHoEc"
+        },
+        {
+          "name": "Madrid",
+          "from": {
+            "zones": [
+              {
+                "CC": "BE",
+                "from": "*"
+              }
+            ]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "28000",
+                "to": "28999"
+              }
+            ]
+          },
+          "incoterm": "FCA",
+          "id": "PMxLwW"
+        }
+      ],
+      "goodsDG": [true, false],
+      "volumes": [
+        {
+          "uom": "pal",
+          "serviceLevel": "LTL",
+          "ranges": [
+            {
+              "from": 1,
+              "to": 5,
+              "id": "obsFDt",
+              "name": "1-5 pal"
+            },
+            {
+              "from": 5,
+              "to": 10,
+              "id": "uMMu4W",
+              "name": "5-10 pal"
+            },
+            {
+              "from": 10,
+              "to": 15,
+              "id": "QfyAyp",
+              "name": "10-15 pal"
+            },
+            {
+              "from": 15,
+              "to": 99,
+              "id": "2ypJrf",
+              "name": "15-99 pal"
+            }
+          ],
+          "id": "uZhkc4"
+        }
+      ],
+      "definition": ["DG", "volumes"],
+      "source": {
+        "type": "priceList"
+      }
+    },
+    "calculation": {
+      "status": "finished",
+      "result": "16 matching scope groups found"
+    },
+    "packages": [
+      {
+        "pickupCountry": "BE",
+        "bidGroups": [
+          {
+            "pickupCountry": "BE",
+            "pickupZip": "*",
+            "deliveryCountry": "ES",
+            "deliveryZip": "18000",
+            "shipmentIds": [],
+            "quantity": {
+              "scopeCount": 8,
+              "shipCount": 448,
+              "totalAmount": 160,
+              "avgAmount": 20,
+              "minAmount": 3,
+              "maxAmount": 57,
+              "stdevAmount": 21.62,
+              "currentAvgLeadtime": null
+            },
+            "id": "XmByuh"
+          },
+          {
+            "pickupCountry": "BE",
+            "pickupZip": "*",
+            "deliveryCountry": "ES",
+            "deliveryZip": "28000",
+            "shipmentIds": [],
+            "quantity": {
+              "scopeCount": 8,
+              "shipCount": 357,
+              "totalAmount": 160,
+              "avgAmount": 20,
+              "minAmount": 3,
+              "maxAmount": 57,
+              "stdevAmount": 21.62,
+              "currentAvgLeadtime": null
+            },
+            "id": "sp9zfv"
+          }
+        ]
+      }
+    ],
+    "bidders": [
+      {
+        "accountId": "C75701",
+        "userIds": ["TY4GykZ6jcb3SgqGG"]
+      }
+    ]
+  },
+  {
+    "_id": "snDYcbKWBaPCyWRbj",
+    "title": "Demo Tender",
+    "contacts": [
+      {
+        "userId": "jsBor6o3uRBTFoRQY",
+        "role": "owner"
+      }
+    ],
+    "status": "draft",
+    "created": {
+      "by": "jsBor6o3uRBTFoRQY",
+      "at": { "$date": "2019-11-22T13:12:15.186+01:00" }
+    },
+    "accountId": "S65957",
+    "number": "MZ8D4T",
+    "updated": {
+      "by": "jsBor6o3uRBTFoRQY",
+      "at": { "$date": "2019-11-25T10:36:55.871+01:00" }
+    },
+    "deleted": false,
+    "steps": ["general", "requirements", "scope"],
+    "notes": {
+      "introduction": "<span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; letter-spacing: normal; text-align: justify;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>",
+      "procedure": "<span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; letter-spacing: normal; text-align: justify;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>"
+    },
+    "timeline": [
+      {
+        "title": "RFI",
+        "details": "Initial phase to request information of bidding parties",
+        "date": { "$date": "2019-11-25T00:00:00.000+01:00" }
+      },
+      {
+        "title": "Collect information",
+        "details": "Receive all information packages",
+        "date": { "$date": "2019-11-27T00:00:00.000+01:00" }
+      },
+      {
+        "title": "Send out RFQ",
+        "details": "invite parties to participate in RFQ",
+        "date": { "$date": "2019-11-28T00:00:00.000+01:00" }
+      },
+      {
+        "title": "receive bids",
+        "details": "Receive bids from the bidders",
+        "date": { "$date": "2019-11-30T00:00:00.000+01:00" }
+      },
+      {
+        "title": "final decision",
+        "details": "Final decision on tender",
+        "date": { "$date": "2019-12-02T00:00:00.000+01:00" }
+      }
+    ],
+    "FAQ": [
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    ],
+    "requirements": [
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "type": "hard",
+        "responseType": "YN",
+        "id": "oejK5a"
+      },
+      {
+        "title": "Lorem ipsum dolor sit amet 2",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "type": "hard",
+        "responseType": "list",
+        "responseOptions": ["option1", "option2", "option3"],
+        "id": "BgcWyF"
+      },
+      {
+        "title": "Lorem ipsum dolor sit amet",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "type": "hard",
+        "responseType": "text",
+        "id": "fHHsTn"
+      }
+    ],
+    "scope": {
+      "lanes": [
+        {
+          "name": "Granada",
+          "from": {
+            "addressIds": ["j958tYA872PAogTDq"],
+            "address": []
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "18000",
+                "to": "18999"
+              }
+            ]
+          },
+          "incoterm": "FCA",
+          "id": "JCr5y2"
+        },
+        {
+          "name": "Huelva",
+          "from": {
+            "addressIds": ["j958tYA872PAogTDq"],
+            "address": []
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "21000",
+                "to": "21999"
+              }
+            ]
+          },
+          "incoterm": "FCA",
+          "id": "iD8zfK"
+        },
+        {
+          "name": "Lleida",
+          "from": {
+            "addressIds": ["j958tYA872PAogTDq"],
+            "address": []
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "25000",
+                "to": "25999"
+              }
+            ]
+          },
+          "incoterm": "FCA",
+          "id": "irHZJ9"
+        },
+        {
+          "name": "Madrid",
+          "from": {
+            "addressIds": ["j958tYA872PAogTDq"],
+            "address": []
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "28000",
+                "to": "28999"
+              }
+            ]
+          },
+          "incoterm": "FCA",
+          "id": "jnPL3x"
+        },
+        {
+          "name": "Ankara",
+          "from": {
+            "zones": [
+              {
+                "CC": "BE",
+                "from": "*"
+              }
+            ]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "TR",
+                "from": "*"
+              }
+            ]
+          },
+          "id": "zQxJhb"
+        }
+      ],
+      "goodsDG": [true, false],
+      "volumes": [
+        {
+          "uom": "pal",
+          "serviceLevel": "LTL",
+          "ranges": [
+            {
+              "from": 1,
+              "to": 5,
+              "id": "EREtd7",
+              "name": "1-5 pal"
+            },
+            {
+              "from": 6,
+              "to": 10,
+              "id": "zu2jAd",
+              "name": "6-10 pal"
+            },
+            {
+              "from": 11,
+              "to": 15,
+              "id": "HwtzWu",
+              "name": "11-15 pal"
+            },
+            {
+              "from": 16,
+              "to": 20,
+              "id": "A5K7Cn",
+              "name": "16-20 pal"
+            },
+            {
+              "from": 21,
+              "to": 25,
+              "id": "e7fQGo",
+              "name": "21-25 pal"
+            },
+            {
+              "from": 26,
+              "to": 99,
+              "id": "kWpqEn",
+              "name": "26-99 pal"
+            }
+          ],
+          "id": "yxH3Yw"
+        }
+      ],
+      "definition": ["DG", "volumes"],
+      "source": {
+        "type": "priceList"
+      }
+    },
+    "params": {
+      "query": {
+        "period": {
+          "from": "2018-11-01",
+          "to": "2019-11-01"
+        }
+      }
+    },
+    "bidders": [
+      {
+        "accountId": "C75701",
+        "userIds": ["pYFLYFDMJEnKADY3h"]
+      }
+    ]
+  }
+]

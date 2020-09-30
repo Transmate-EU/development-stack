@@ -1,0 +1,101 @@
+[
+  {
+    "_id": "pYFLYFDMJEnKADY3h",
+    "createdAt": { "$date": "2016-10-06T12:33:07.575+02:00" },
+    "services": {
+      "password": {
+        "bcrypt": "$2b$10$cjwEP6QQnbPQSwYTTd3LW.VVeji6GREB1Q0nP5DVe7zjMjsSjuh.a"
+      },
+      "resume": {
+        "loginTokens": []
+      }
+    },
+    "emails": [
+      {
+        "address": "carrier@transmate.eu",
+        "verified": true
+      }
+    ],
+    "introductionEmail": true,
+    "profile": {
+      "first": "Carrier",
+      "last": "Account",
+      "avatar": ""
+    }
+  },
+  {
+    "_id": "pYFLYFDMJEnKADYXX",
+    "createdAt": { "$date": "2016-10-06T12:33:07.575+02:00" },
+    "services": {
+      "password": {
+        "bcrypt": "$2b$10$cjwEP6QQnbPQSwYTTd3LW.VVeji6GREB1Q0nP5DVe7zjMjsSjuh.a"
+      },
+      "resume": {
+        "loginTokens": []
+      }
+    },
+    "emails": [
+      {
+        "address": "user@carrierBeta.test",
+        "verified": true
+      }
+    ],
+    "introductionEmail": true,
+    "profile": {
+      "first": "Carrier",
+      "last": "Beta",
+      "avatar": ""
+    }
+  },
+  {
+    "_id": "jsBor6o3uRBTFoRQY",
+    "services": {
+      "password": {
+        "bcrypt": "$2b$10$cjwEP6QQnbPQSwYTTd3LW.VVeji6GREB1Q0nP5DVe7zjMjsSjuh.a"
+      },
+      "resume": {
+        "loginTokens": []
+      }
+    },
+    "emails": [
+      {
+        "address": "globex@transmate.eu",
+        "verified": true
+      }
+    ],
+    "profile": {
+      "first": "Test",
+      "last": "Account",
+      "avatar": ""
+    },
+    "preferences": {
+      "views": {
+        "shipments": "SFmuaoiFLs4FG5mQm"
+      }
+    },
+    "introductionEmail": true
+  },
+  {
+    "_id": "jsBor6o3uRBTFoQQQ",
+    "services": {
+      "password": {
+        "bcrypt": "$2b$10$cjwEP6QQnbPQSwYTTd3LW.VVeji6GREB1Q0nP5DVe7zjMjsSjuh.a"
+      },
+      "resume": {
+        "loginTokens": []
+      }
+    },
+    "emails": [
+      {
+        "address": "globex2@ekspose.me",
+        "verified": true
+      }
+    ],
+    "profile": {
+      "first": "Test",
+      "last": "Account 2",
+      "avatar": ""
+    },
+    "introductionEmail": true
+  }
+]

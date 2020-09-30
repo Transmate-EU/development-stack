@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "mTQmzoCfAiLbGFzo3",
+    "from": {
+      "latLng": {
+        "lat": 50.8888189,
+        "lng": 4.458519900000056
+      },
+      "countryCode": "BE",
+      "zipCode": "1930",
+      "name": "Globex Belgium",
+      "addressId": "j958tYA872PAogTDq",
+      "address": {
+        "street": "Leonardo da Vincilaan",
+        "number": "7",
+        "city": "Zaventem",
+        "state": "Vlaanderen"
+      }
+    },
+    "to": {
+      "latLng": {
+        "lat": 40.3061528,
+        "lng": -3.465709199999992
+      },
+      "countryCode": "ES",
+      "zipCode": "28500",
+      "name": "Globex Spain",
+      "addressId": "WJNLceXYjFBdYL4YQ",
+      "address": {
+        "street": "Avenida de Madrid",
+        "number": "43",
+        "city": "Arganda del Rey",
+        "state": "Comunidad de Madrid"
+      }
+    },
+    "dates": {
+      "pickup": {
+        "arrival": {
+          "planned": { "$date": "2017-10-18T02:00:00.000+02:00" }
+        }
+      },
+      "delivery": {
+        "arrival": {
+          "planned": { "$date": "2017-10-19T02:00:00.000+02:00" }
+        }
+      }
+    },
+    "shipmentId": "2jG2mZFcaFzqaThcr",
+    "created": {
+      "by": "jsBor6o3uRBTFoRQY",
+      "at": { "$date": "2017-10-18T10:57:51.997+02:00" }
+    },
+    "sphericalDistance": 1434671,
+    "mode": "road",
+    "status": "draft",
+    "ftl": false,
+    "carrierId": "C75701"
+  }
+]

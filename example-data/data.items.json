@@ -1,0 +1,94 @@
+[
+  {
+    "_id": "k5BWub9Kzv47Q4Am6",
+    "type": "TU",
+    "itemType": "truck",
+    "calcSettings": {
+      "itemize": false,
+      "costRelevant": true
+    },
+    "created": {
+      "by": "server",
+      "at": {
+        "$date": "2020-08-10T10:37:34.129+02:00"
+      },
+      "atms": 1597048654129
+    },
+    "level": 0,
+    "references": {
+      "containerNo": "LJ073NH / LJ64GSR"
+    },
+    "DG": false,
+    "deleted": false,
+    "description": "Infra",
+    "quantity": {
+      "code": "TAUTLINER",
+      "amount": 1,
+      "description": null
+    },
+    "shipmentId": "2jG2mZFcaFzqaThXX",
+    "weight_gross": 10000,
+    "weight_net": 10000,
+    "taxable": [],
+    "weight_unit": "kg",
+    "updated": {
+      "shipment_items": "in queue"
+    }
+  },
+  {
+    "_id": "oaXMFZchcXeMe52Hd",
+    "type": "HU",
+    "itemType": "custom",
+    "calcSettings": {
+      "itemize": false,
+      "costRelevant": true
+    },
+    "created": {
+      "by": "dH842ByGTEvhLmRxY",
+      "at": {
+        "$date": "2020-07-15T11:46:13.682+02:00"
+      }
+    },
+    "description": "ENERGY",
+    "level": 0,
+    "references": {},
+    "DG": false,
+    "deleted": false,
+    "shipmentId": "sryyo2fg4EmRpfnbh",
+    "quantity": {
+      "code": "PAL",
+      "amount": 33,
+      "description": "Pallet"
+    },
+    "weight_gross": 11000,
+    "weight_unit": "kg",
+    "temperature": {},
+    "dimensions": {},
+    "updated": {
+      "by": "dH842ByGTEvhLmRxY",
+      "at": {
+        "$date": "2020-07-15T11:46:13.681+02:00"
+      },
+      "shipment_items": "synced"
+    },
+    "weight_net": 11000,
+    "taxable": [
+      {
+        "type": "pal",
+        "quantity": 33
+      },
+      {
+        "type": "kg",
+        "quantity": 11000
+      },
+      {
+        "type": "m3",
+        "quantity": 0
+      },
+      {
+        "type": "lm",
+        "quantity": 15
+      }
+    ]
+  }
+]

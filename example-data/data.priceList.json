@@ -1,0 +1,2209 @@
+[
+  {
+    "_id": "n8pYLq3LEzZDHqYS4",
+    "title": "Belgium - Spain - Standard",
+    "template": {
+      "type": "road"
+    },
+    "customerId": "S65957",
+    "carrierId": "C69205",
+    "mode": "road",
+    "category": "standard",
+    "type": "contract",
+    "currency": "EUR",
+    "validFrom": { "$date": "2018-09-03T02:00:00.000+02:00" },
+    "validTo": { "$date": "2019-09-04T02:00:00.000+02:00" },
+    "terms": {
+      "days": 30,
+      "condition": "days"
+    },
+    "specialRequirements": [],
+    "uoms": {
+      "allowed": ["pal"]
+    },
+    "status": "active",
+    "created": {
+      "by": "jsBor6o3uRBTFoRQY",
+      "at": { "$date": "2018-09-04T21:51:21.092+02:00" }
+    },
+    "creatorId": "S65957",
+    "updates": [
+      {
+        "action": "created",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-09-04T21:51:21.250+02:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-09-04T22:00:23.764+02:00" }
+      },
+      {
+        "action": "duplicateStructureAndData",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-09-04T22:01:50.075+02:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-09-04T22:07:03.257+02:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-09-04T22:07:33.908+02:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-09-05T16:55:29.030+02:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-09-05T16:55:36.269+02:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-12-10T16:17:51.527+01:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-12-10T16:18:49.266+01:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-12-10T16:20:42.710+01:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-12-10T16:20:59.400+01:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-12-10T17:06:52.643+01:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-12-10T17:07:06.190+01:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-12-10T17:08:44.077+01:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-12-17T20:43:36.544+01:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-12-17T20:49:34.284+01:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2019-03-25T17:34:35.283+01:00" }
+      }
+    ],
+    "defaultLeadTime": {
+      "leadTimeHours": 24,
+      "days": [true, true, true, true, true, false, false],
+      "frequency": "weekly"
+    },
+    "volumes": [
+      {
+        "uom": "pal",
+        "serviceLevel": "LTL",
+        "ranges": [
+          {
+            "from": 1,
+            "to": 5,
+            "id": "k7REAw"
+          },
+          {
+            "from": 5,
+            "to": 10,
+            "id": "wDr2mw"
+          },
+          {
+            "from": 11,
+            "to": 15,
+            "id": "Ant3aM"
+          },
+          {
+            "from": 16,
+            "to": 20,
+            "id": "a4AL5w"
+          },
+          {
+            "from": 20,
+            "to": 25,
+            "id": "EBeXEH"
+          },
+          {
+            "from": 25,
+            "to": 99,
+            "id": "4oRMGL"
+          }
+        ],
+        "id": "aTmCfn"
+      }
+    ],
+    "lanes": [
+      {
+        "name": "Granada",
+        "from": {
+          "addressIds": ["j958tYA872PAogTDq"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "18000",
+              "to": "18999"
+            }
+          ]
+        },
+        "incoterm": "FCA",
+        "id": "yEuMxg",
+        "hashes": {
+          "lane": "5d54c4017bcde9ac75181670ec0bbb93db22595d",
+          "from": "86ee1a10faabe16aa235afc55e56a34b42f6dac2",
+          "to": "c0b8cdedbaba8ab0031ddeaff0b2e2b394ddf242"
+        }
+      },
+      {
+        "name": "Huelva",
+        "from": {
+          "addressIds": ["j958tYA872PAogTDq"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "21000",
+              "to": "21999"
+            }
+          ]
+        },
+        "incoterm": "FCA",
+        "id": "DHMZJE",
+        "hashes": {
+          "lane": "0f71b106ce0e1ffbb1e6602a3c04e9bfd9bbef96",
+          "from": "86ee1a10faabe16aa235afc55e56a34b42f6dac2",
+          "to": "e22e68777d6569fe9d7877bb81cc1e9be411e6d4"
+        }
+      },
+      {
+        "name": "Lleida",
+        "from": {
+          "addressIds": ["j958tYA872PAogTDq"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "25000",
+              "to": "25999"
+            }
+          ]
+        },
+        "incoterm": "FCA",
+        "id": "77jrgq",
+        "hashes": {
+          "lane": "569385487bfa08a61a12ddcafbf4287542ece2a0",
+          "from": "86ee1a10faabe16aa235afc55e56a34b42f6dac2",
+          "to": "17803dc54d6cc21f4cacfe91622f449d06524125"
+        }
+      },
+      {
+        "name": "Madrid",
+        "from": {
+          "addressIds": ["j958tYA872PAogTDq"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "28000",
+              "to": "28999"
+            }
+          ]
+        },
+        "incoterm": "FCA",
+        "id": "2XdwHd",
+        "hashes": {
+          "lane": "bd212b3c49bf39d3c72b1b9b2b39e3d638791955",
+          "from": "86ee1a10faabe16aa235afc55e56a34b42f6dac2",
+          "to": "eca5ebcbcc39244cd25f0965f3af5e7a2794ee69"
+        }
+      }
+    ],
+    "fuelIndexId": "9Wwis9MDy2hhXi2tb",
+    "notes": "This rate card is for demo purpose only. Rates are not real and not representative. &nbsp;",
+    "summary": {
+      "laneCount": 4,
+      "rateCount": 26
+    },
+    "carrierName": "Joep Transport",
+    "lanesHash": [
+      {
+        "id": "yEuMxg",
+        "lane": "5d54c4017bcde9ac75181670ec0bbb93db22595d",
+        "from": "86ee1a10faabe16aa235afc55e56a34b42f6dac2",
+        "to": "c0b8cdedbaba8ab0031ddeaff0b2e2b394ddf242"
+      },
+      {
+        "id": "DHMZJE",
+        "lane": "0f71b106ce0e1ffbb1e6602a3c04e9bfd9bbef96",
+        "from": "86ee1a10faabe16aa235afc55e56a34b42f6dac2",
+        "to": "e22e68777d6569fe9d7877bb81cc1e9be411e6d4"
+      },
+      {
+        "id": "77jrgq",
+        "lane": "569385487bfa08a61a12ddcafbf4287542ece2a0",
+        "from": "86ee1a10faabe16aa235afc55e56a34b42f6dac2",
+        "to": "17803dc54d6cc21f4cacfe91622f449d06524125"
+      },
+      {
+        "id": "2XdwHd",
+        "lane": "bd212b3c49bf39d3c72b1b9b2b39e3d638791955",
+        "from": "86ee1a10faabe16aa235afc55e56a34b42f6dac2",
+        "to": "eca5ebcbcc39244cd25f0965f3af5e7a2794ee69"
+      }
+    ],
+    "deleted": false
+  },
+  {
+    "_id": "KYTm5EENCghCCQxpZ",
+    "customerId": "S65957",
+    "carrierId": "C75701",
+    "template": {
+      "type": "road"
+    },
+    "title": "Demo: Belgium - Spain: Road",
+    "currency": "EUR",
+    "category": "standard",
+    "type": "contract",
+    "mode": "road",
+    "validFrom": { "$date": "2016-01-01T01:00:00.000+01:00" },
+    "validTo": { "$date": "2019-12-31T01:00:00.000+01:00" },
+    "uoms": {
+      "allowed": ["kg"]
+    },
+    "lanes": [
+      {
+        "name": "zone 1",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "28000",
+              "to": "28999"
+            }
+          ]
+        },
+        "id": "ttqfKC",
+        "hashes": {
+          "lane": "a4a720946211a5fb081d5f6fe06b7932cce53541",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "eca5ebcbcc39244cd25f0965f3af5e7a2794ee69"
+        }
+      },
+      {
+        "name": "zone 4",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "19000",
+              "to": "19999"
+            },
+            {
+              "CC": "ES",
+              "from": "40000",
+              "to": "40999"
+            },
+            {
+              "CC": "ES",
+              "from": "45000",
+              "to": "45999"
+            }
+          ]
+        },
+        "id": "qvkuFE",
+        "hashes": {
+          "lane": "d30adc21b2154f93ec0b67d52ffa9c0a6fa93a8d",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "58cf406b68b649d0dc1d9afc6e0b1c6e17547b20"
+        }
+      },
+      {
+        "name": "zone 5",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "05000",
+              "to": "05999"
+            },
+            {
+              "CC": "ES",
+              "from": "16000",
+              "to": "16999"
+            }
+          ]
+        },
+        "id": "Msy9AA",
+        "hashes": {
+          "lane": "73f5ed41e683ee0299f8aa6bd4f5edd264cf2633",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "8c772c642061f977dacfb56ba798e3ec8d93c7bd"
+        }
+      },
+      {
+        "name": "zone 6",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "13000",
+              "to": "13999"
+            },
+            {
+              "CC": "ES",
+              "from": "47000",
+              "to": "47999"
+            }
+          ]
+        },
+        "id": "tSKNSB",
+        "hashes": {
+          "lane": "9cc1fc3da5d28cf1d56c4dae3170c2de008c40f7",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "66e160863f85aab6d6432cc5c7fcdf9cbb32ddf2"
+        }
+      },
+      {
+        "name": "zone 7",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "02000",
+              "to": "02999"
+            },
+            {
+              "CC": "ES",
+              "from": "09000",
+              "to": "09999"
+            },
+            {
+              "CC": "ES",
+              "from": "34000",
+              "to": "34999"
+            },
+            {
+              "CC": "ES",
+              "from": "37000",
+              "to": "37999"
+            },
+            {
+              "CC": "ES",
+              "from": "49000",
+              "to": "49999"
+            },
+            {
+              "CC": "ES",
+              "from": "50000",
+              "to": "50999"
+            }
+          ]
+        },
+        "id": "YYudfH",
+        "hashes": {
+          "lane": "c8e5fc1fec4335fe42ca8c9120db5d9332815baf",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "ff24578cf51c74f9140b782c15b8567dd28fdd7c"
+        }
+      },
+      {
+        "name": "zone 8",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "01000",
+              "to": "01999"
+            },
+            {
+              "CC": "ES",
+              "from": "03000",
+              "to": "03999"
+            },
+            {
+              "CC": "ES",
+              "from": "06000",
+              "to": "06999"
+            },
+            {
+              "CC": "ES",
+              "from": "10000",
+              "to": "10999"
+            },
+            {
+              "CC": "ES",
+              "from": "12000",
+              "to": "12999"
+            },
+            {
+              "CC": "ES",
+              "from": "23000",
+              "to": "23999"
+            },
+            {
+              "CC": "ES",
+              "from": "24000",
+              "to": "24999"
+            },
+            {
+              "CC": "ES",
+              "from": "26000",
+              "to": "26999"
+            },
+            {
+              "CC": "ES",
+              "from": "30000",
+              "to": "30999"
+            },
+            {
+              "CC": "ES",
+              "from": "31000",
+              "to": "31999"
+            },
+            {
+              "CC": "ES",
+              "from": "39000",
+              "to": "39999"
+            },
+            {
+              "CC": "ES",
+              "from": "42000",
+              "to": "42999"
+            },
+            {
+              "CC": "ES",
+              "from": "46000",
+              "to": "46999"
+            },
+            {
+              "CC": "ES",
+              "from": "48000",
+              "to": "48999"
+            }
+          ]
+        },
+        "id": "pR2GEY",
+        "hashes": {
+          "lane": "90421154913611d9ac91e3059b2458b6e0595fa3",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "2ce246f73258fce1d678ca55b83079e906147c79"
+        }
+      },
+      {
+        "name": "zone 9",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "14000",
+              "to": "14999"
+            },
+            {
+              "CC": "ES",
+              "from": "18000",
+              "to": "18999"
+            },
+            {
+              "CC": "ES",
+              "from": "20000",
+              "to": "20999"
+            },
+            {
+              "CC": "ES",
+              "from": "33000",
+              "to": "33999"
+            }
+          ]
+        },
+        "id": "RvQmee",
+        "hashes": {
+          "lane": "e6bc65260c872a17881e85f7ae0dea8446cfab8d",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "4e7a29882e46ad6d4bab1b7de1eb59da67a57f4c"
+        }
+      },
+      {
+        "name": "zone 10",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "44000",
+              "to": "44999"
+            }
+          ]
+        },
+        "id": "BLpwro",
+        "hashes": {
+          "lane": "fe7d4db38cd43f49447d2ffdc720a87654866f71",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "b424aa6ebc3885be0aeba77266058098a19cc326"
+        }
+      },
+      {
+        "name": "zone 11",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "15000",
+              "to": "15999"
+            },
+            {
+              "CC": "ES",
+              "from": "22000",
+              "to": "22999"
+            },
+            {
+              "CC": "ES",
+              "from": "25000",
+              "to": "25999"
+            },
+            {
+              "CC": "ES",
+              "from": "27000",
+              "to": "27999"
+            },
+            {
+              "CC": "ES",
+              "from": "29000",
+              "to": "29999"
+            },
+            {
+              "CC": "ES",
+              "from": "32000",
+              "to": "32999"
+            },
+            {
+              "CC": "ES",
+              "from": "36000",
+              "to": "36999"
+            },
+            {
+              "CC": "ES",
+              "from": "41000",
+              "to": "41999"
+            },
+            {
+              "CC": "ES",
+              "from": "43000",
+              "to": "43999"
+            }
+          ]
+        },
+        "id": "BFrWEt",
+        "hashes": {
+          "lane": "bfd90c655631db6251e3a51b8baf2af3bb8d9a00",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "f30995615f66bcc00210ce6a3f53da11c0e7d7ef"
+        }
+      },
+      {
+        "name": "zone 12",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "04000",
+              "to": "04999"
+            },
+            {
+              "CC": "ES",
+              "from": "08000",
+              "to": "08999"
+            }
+          ]
+        },
+        "id": "9Wcw8n",
+        "hashes": {
+          "lane": "a1311e5baeafdbfa7fe0d008de0328caa8124728",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "a91380edd32344f4585911a074c9ba89e8536065"
+        }
+      },
+      {
+        "name": "zone 13",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "11000",
+              "to": "11999"
+            },
+            {
+              "CC": "ES",
+              "from": "17000",
+              "to": "17999"
+            },
+            {
+              "CC": "ES",
+              "from": "21000",
+              "to": "21999"
+            }
+          ]
+        },
+        "id": "7uam3N",
+        "hashes": {
+          "lane": "bdcb3fa8f31341aeaadd597c4e95809a6bfeed5a",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "7b51f14a7e05b2889af1b7906d2588d6fe0426fe"
+        }
+      },
+      {
+        "name": "zone 15",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "PT",
+              "from": "1000 000",
+              "to": "2199 999"
+            },
+            {
+              "CC": "PT",
+              "from": "2500 000",
+              "to": "2999 999"
+            },
+            {
+              "CC": "PT",
+              "from": "4000 000",
+              "to": "4999 999"
+            }
+          ]
+        },
+        "id": "AeChzF",
+        "hashes": {
+          "lane": "54ad19ed20477ebab10be6a27c7f4e28ce52694a",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "84fad4123bb342555fd8ca5e2df707041005ee19"
+        }
+      },
+      {
+        "name": "zone 16",
+        "id": "c9nMgP",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "PT",
+              "from": "0000 000",
+              "to": "0999 999"
+            },
+            {
+              "CC": "PT",
+              "from": "2200 000",
+              "to": "2499 999"
+            },
+            {
+              "CC": "PT",
+              "from": "3000 000",
+              "to": "3999 999"
+            },
+            {
+              "CC": "PT",
+              "from": "5000 000",
+              "to": "8999 999"
+            }
+          ]
+        },
+        "hashes": {
+          "lane": "33969ab053b02807575379c105237e626dff3d03",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "151a8b0b8db90517b0d842eddb6c45ba1be350a3"
+        }
+      },
+      {
+        "name": "zone 19",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "07000",
+              "to": "07999"
+            }
+          ]
+        },
+        "id": "2Fdh8f",
+        "hashes": {
+          "lane": "bdd6de9cfbb680104d3364a2b7cae331c8a2040b",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "4d962a432ab864ddb9b9948ff7f38c908c2f304c"
+        }
+      },
+      {
+        "name": "AD",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "AD",
+              "from": "*"
+            }
+          ]
+        },
+        "id": "kmThdb",
+        "hashes": {
+          "lane": "ad7c684a6365e9f431742f1c6f44ab7cf1d44c2c",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "51c753c58afff15567a92422844ec459e1ecd835"
+        }
+      },
+      {
+        "name": "AyM",
+        "id": "J8pNrG",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "PT",
+              "from": "9000 000",
+              "to": "9999 999"
+            }
+          ]
+        },
+        "hashes": {
+          "lane": "b6e8e0db7ac19bbdcacea024065a6bebaae7989d",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "3848f652e5a97a792babc96aece2c4e0b221f463"
+        }
+      },
+      {
+        "name": "Canarias Sea",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "35000",
+              "to": "35999"
+            },
+            {
+              "CC": "ES",
+              "from": "38000",
+              "to": "38999"
+            }
+          ]
+        },
+        "id": "sjM7W4",
+        "hashes": {
+          "lane": "458b1f07a885260e5d218e9d531e2ce7a67b1d6e",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "f60e5c968ae5e6bbae3a014ccc818082992d1836"
+        }
+      },
+      {
+        "name": "ES51",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "51000",
+              "to": "51999"
+            }
+          ]
+        },
+        "id": "Cobq7N",
+        "hashes": {
+          "lane": "938da02c9aa246dadcdfc4e9f2a2b79f8095f7dd",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "adf222f41ec8ff90507c4fe4cd87177e8a752656"
+        }
+      },
+      {
+        "name": "ES52",
+        "from": {
+          "addressIds": ["WJNLceXYjFBdYL4YQ"]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "52000",
+              "to": "52999"
+            }
+          ]
+        },
+        "id": "yGaXh2",
+        "hashes": {
+          "lane": "01ff2c396e852f51e845c229f996e0c5f8cc0c33",
+          "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+          "to": "726168581645252b848cd55620796f5ab009f2c7"
+        }
+      }
+    ],
+    "volumes": [
+      {
+        "ranges": [
+          {
+            "from": 0,
+            "to": 5,
+            "id": "3ZixFw"
+          },
+          {
+            "from": 5,
+            "to": 10,
+            "id": "QCDq3h"
+          },
+          {
+            "from": 10,
+            "to": 15,
+            "id": "LnwHYA"
+          },
+          {
+            "from": 15,
+            "to": 20,
+            "id": "ardfFN"
+          },
+          {
+            "from": 20,
+            "to": 30,
+            "id": "TgryrD"
+          },
+          {
+            "from": 30,
+            "to": 40,
+            "id": "W77Wax"
+          },
+          {
+            "from": 40,
+            "to": 50,
+            "id": "qkoa7f"
+          },
+          {
+            "from": 50,
+            "to": 60,
+            "id": "k89j3Z"
+          },
+          {
+            "from": 60,
+            "to": 70,
+            "id": "J9mQgM"
+          },
+          {
+            "from": 70,
+            "to": 80,
+            "id": "xf6zvh"
+          },
+          {
+            "from": 80,
+            "to": 90,
+            "id": "jH9mGd"
+          },
+          {
+            "from": 90,
+            "to": 100,
+            "id": "d7hRQS"
+          },
+          {
+            "from": 100,
+            "to": 110,
+            "id": "d79mRv"
+          },
+          {
+            "from": 110,
+            "to": 120,
+            "id": "7e2r9H"
+          },
+          {
+            "from": 120,
+            "to": 130,
+            "id": "GFfKJ9"
+          },
+          {
+            "from": 130,
+            "to": 140,
+            "id": "ifZN8P"
+          },
+          {
+            "from": 140,
+            "to": 150,
+            "id": "aw3BqA"
+          },
+          {
+            "from": 150,
+            "to": 160,
+            "id": "6mHmiT"
+          },
+          {
+            "from": 160,
+            "to": 170,
+            "id": "rjNFxi"
+          },
+          {
+            "from": 170,
+            "to": 180,
+            "id": "jgu7D4"
+          },
+          {
+            "from": 180,
+            "to": 190,
+            "id": "Mc2mux"
+          },
+          {
+            "from": 190,
+            "to": 200,
+            "id": "CxXJeu"
+          },
+          {
+            "from": 200,
+            "to": 225,
+            "id": "EMku62"
+          },
+          {
+            "from": 225,
+            "to": 250,
+            "id": "a9yjCZ"
+          },
+          {
+            "from": 250,
+            "to": 275,
+            "id": "ouAtx2"
+          },
+          {
+            "from": 275,
+            "to": 300,
+            "id": "f4weHv"
+          },
+          {
+            "from": 300,
+            "to": 325,
+            "id": "JpKswG"
+          },
+          {
+            "from": 325,
+            "to": 350,
+            "id": "u8ikSs"
+          },
+          {
+            "from": 350,
+            "to": 375,
+            "id": "P3SiCt"
+          },
+          {
+            "from": 375,
+            "to": 400,
+            "id": "5GeQmF"
+          },
+          {
+            "from": 400,
+            "to": 425,
+            "id": "jLA36J"
+          },
+          {
+            "from": 425,
+            "to": 450,
+            "id": "d69za9"
+          },
+          {
+            "from": 450,
+            "to": 475,
+            "id": "DDzf2L"
+          },
+          {
+            "from": 475,
+            "to": 500,
+            "id": "W8wkq9"
+          },
+          {
+            "from": 500,
+            "to": 550,
+            "id": "uMgfw2"
+          },
+          {
+            "from": 550,
+            "to": 600,
+            "id": "T7Ri3G"
+          },
+          {
+            "from": 600,
+            "to": 650,
+            "id": "HQmEjr"
+          },
+          {
+            "from": 650,
+            "to": 700,
+            "id": "AHzHhM"
+          },
+          {
+            "from": 700,
+            "to": 750,
+            "id": "pQGjwr"
+          },
+          {
+            "from": 750,
+            "to": 800,
+            "id": "nSMfpW"
+          },
+          {
+            "from": 800,
+            "to": 850,
+            "id": "eFwpA4"
+          },
+          {
+            "from": 850,
+            "to": 900,
+            "id": "naQd8N"
+          },
+          {
+            "from": 900,
+            "to": 950,
+            "id": "GxYLNR"
+          },
+          {
+            "from": 950,
+            "to": 1000,
+            "id": "S9gXLD"
+          },
+          {
+            "from": 1000,
+            "to": 2000,
+            "id": "xu3fiX"
+          },
+          {
+            "from": 2000,
+            "to": 33000,
+            "id": "W63QSp"
+          }
+        ],
+        "uom": "kg",
+        "serviceLevel": "LTL",
+        "volumeGroupIndex": 0,
+        "id": "wa3CkG"
+      }
+    ],
+    "leadTimes": [
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "1",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "28000",
+                "to": "28999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "4",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "19000",
+                "to": "19999"
+              },
+              {
+                "CC": "ES",
+                "from": "40000",
+                "to": "40999"
+              },
+              {
+                "CC": "ES",
+                "from": "45000",
+                "to": "45999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "5",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "05000",
+                "to": "05999"
+              },
+              {
+                "CC": "ES",
+                "from": "16000",
+                "to": "16999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "6",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "13000",
+                "to": "13999"
+              },
+              {
+                "CC": "ES",
+                "from": "47000",
+                "to": "47999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "7",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "02000",
+                "to": "02999"
+              },
+              {
+                "CC": "ES",
+                "from": "09000",
+                "to": "09999"
+              },
+              {
+                "CC": "ES",
+                "from": "34000",
+                "to": "34999"
+              },
+              {
+                "CC": "ES",
+                "from": "37000",
+                "to": "37999"
+              },
+              {
+                "CC": "ES",
+                "from": "49000",
+                "to": "49999"
+              },
+              {
+                "CC": "ES",
+                "from": "50000",
+                "to": "50999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "8",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "01000",
+                "to": "01999"
+              },
+              {
+                "CC": "ES",
+                "from": "03000",
+                "to": "03999"
+              },
+              {
+                "CC": "ES",
+                "from": "06000",
+                "to": "06999"
+              },
+              {
+                "CC": "ES",
+                "from": "10000",
+                "to": "10999"
+              },
+              {
+                "CC": "ES",
+                "from": "12000",
+                "to": "12999"
+              },
+              {
+                "CC": "ES",
+                "from": "23000",
+                "to": "23999"
+              },
+              {
+                "CC": "ES",
+                "from": "24000",
+                "to": "24999"
+              },
+              {
+                "CC": "ES",
+                "from": "26000",
+                "to": "26999"
+              },
+              {
+                "CC": "ES",
+                "from": "30000",
+                "to": "30999"
+              },
+              {
+                "CC": "ES",
+                "from": "31000",
+                "to": "31999"
+              },
+              {
+                "CC": "ES",
+                "from": "39000",
+                "to": "39999"
+              },
+              {
+                "CC": "ES",
+                "from": "42000",
+                "to": "42999"
+              },
+              {
+                "CC": "ES",
+                "from": "46000",
+                "to": "46999"
+              },
+              {
+                "CC": "ES",
+                "from": "48000",
+                "to": "48999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "9",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "14000",
+                "to": "14999"
+              },
+              {
+                "CC": "ES",
+                "from": "18000",
+                "to": "18999"
+              },
+              {
+                "CC": "ES",
+                "from": "20000",
+                "to": "20999"
+              },
+              {
+                "CC": "ES",
+                "from": "33000",
+                "to": "33999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "10",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "44000",
+                "to": "44999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "11",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "15000",
+                "to": "15999"
+              },
+              {
+                "CC": "ES",
+                "from": "22000",
+                "to": "22999"
+              },
+              {
+                "CC": "ES",
+                "from": "25000",
+                "to": "25999"
+              },
+              {
+                "CC": "ES",
+                "from": "27000",
+                "to": "27999"
+              },
+              {
+                "CC": "ES",
+                "from": "29000",
+                "to": "29999"
+              },
+              {
+                "CC": "ES",
+                "from": "32000",
+                "to": "32999"
+              },
+              {
+                "CC": "ES",
+                "from": "36000",
+                "to": "36999"
+              },
+              {
+                "CC": "ES",
+                "from": "41000",
+                "to": "41999"
+              },
+              {
+                "CC": "ES",
+                "from": "43000",
+                "to": "43999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "12",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "04000",
+                "to": "04999"
+              },
+              {
+                "CC": "ES",
+                "from": "08000",
+                "to": "08999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "13",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "11000",
+                "to": "11999"
+              },
+              {
+                "CC": "ES",
+                "from": "17000",
+                "to": "17999"
+              },
+              {
+                "CC": "ES",
+                "from": "21000",
+                "to": "21999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "15",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "PT",
+                "from": "1000 000",
+                "to": "2199 999"
+              },
+              {
+                "CC": "PT",
+                "from": "2500 000",
+                "to": "2999 999"
+              },
+              {
+                "CC": "PT",
+                "from": "4000 000",
+                "to": "4999 999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "16",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "PT",
+                "from": "0000 000",
+                "to": "0999 999"
+              },
+              {
+                "CC": "PT",
+                "from": "2200 000",
+                "to": "2499 999"
+              },
+              {
+                "CC": "PT",
+                "from": "3000 000",
+                "to": "3999 999"
+              },
+              {
+                "CC": "PT",
+                "from": "5000 000",
+                "to": "8999 999"
+              },
+              {
+                "CC": "PT",
+                "from": "9800 000",
+                "to": "9999 999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "19",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "07000",
+                "to": "07999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "AD",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "AD",
+                "from": "*"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "AyM",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "PT",
+                "from": "9000 000",
+                "to": "9799 999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "Canarias Sea",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "35000",
+                "to": "35999"
+              },
+              {
+                "CC": "ES",
+                "from": "38000",
+                "to": "38999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "ES51",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "51000",
+                "to": "51999"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "leadTimeHours": 24,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly",
+        "rules": {},
+        "lane": {
+          "name": "ES52",
+          "from": {
+            "addressIds": ["yaTRWLbGAspNSCazw"]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "52000",
+                "to": "52999"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "defaultLeadTime": {
+      "leadTimeHours": 168,
+      "days": [true, true, true, true, true, false, false],
+      "frequency": "weekly"
+    },
+    "notes": "<div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">Rates based on real weight<span style=\"white-space:pre\">\t</span></span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*SBD will not accept conversion rate higher than 150kg/cubic meter.<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><span style=\"white-space: pre; font-size: 14.6667px;\"><font face=\"Calibri\">\t</font></span></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">Rates in Excel<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><span style=\"white-space: pre; font-size: 14.6667px;\"><font face=\"Calibri\">\t</font></span></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">Rates are valid for 2 years after first executed shipment<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><span style=\"white-space: pre; font-size: 14.6667px;\"><font face=\"Calibri\">\t</font></span></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">For Damparis &amp; Tessenderlo location we can accept 2 offers:<span style=\"white-space:pre\">\t</span></span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*Current setup<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*Door to door rate<span style=\"white-space:pre\">\t</span>NO</span></font></div><div><span style=\"white-space: pre; font-size: 14.6667px;\"><font face=\"Calibri\">\t</font></span></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">Segments REDUR is quoting for<span style=\"white-space:pre\">\t</span></span></font></div><div><span style=\"white-space: pre; font-size: 14.6667px;\"><font face=\"Calibri\">\t</font></span></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">Completed simulation<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><span style=\"white-space: pre; font-size: 14.6667px;\"><font face=\"Calibri\">\t</font></span></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">Confirmation of variable SBD fuel model<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><span style=\"white-space: pre; font-size: 14.6667px;\"><font face=\"Calibri\">\t</font></span></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">Confirmation to execute reporting and invoicing:<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><span style=\"white-space: pre; font-size: 14.6667px;\"><font face=\"Calibri\">\t</font></span></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">Company information<span style=\"white-space:pre\">\t</span></span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*Company introduction<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*Capabilities of shipping dangerous goods<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*Process on making appointments for delivery<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*Claims procedure<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*Setup France (probably refering to Spain &amp; Portugal?)<span style=\"white-space:pre\">\t</span></span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">\u0002 Hubs<span style=\"white-space:pre\">\t</span></span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">\u0002 Own employees/subcontractors<span style=\"white-space:pre\">\t</span></span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*Committed transit times.<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*Reference and contact person (on comparable businesses)<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*Please provide specification of label and EDI connections<span style=\"white-space:pre\">\t</span>YES</span></font></div><div><font face=\"Calibri\"><span style=\"font-size: 14.6667px;\">*Current performance level per department (for above provided reference)<span style=\"white-space:pre\">\t</span>YES</span></font></div>",
+    "specialRequirements": [],
+    "terms": {
+      "days": 30,
+      "condition": "days"
+    },
+    "updates": [
+      {
+        "action": "created",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2019-03-25T17:46:52.387+01:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2019-03-25T18:07:54.318+01:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2019-04-18T11:28:39.367+02:00" }
+      },
+      {
+        "action": "release",
+        "userId": "Dsqp3CRYjFpF8rQbh",
+        "accountId": "S65957",
+        "ts": { "$date": "2019-06-05T10:44:28.392+02:00" }
+      },
+      {
+        "action": "requested",
+        "userId": "pYFLYFDMJEnKADY3h",
+        "accountId": "C75701",
+        "ts": { "$date": "2019-11-08T14:30:52.505+01:00" }
+      }
+    ],
+    "created": {
+      "by": "jsBor6o3uRBTFoRQY",
+      "at": { "$date": "2019-03-25T17:46:52.110+01:00" }
+    },
+    "creatorId": "C75701",
+    "status": "requested",
+    "summary": {
+      "laneCount": 19,
+      "rateCount": 874
+    },
+    "carrierName": "Carrier PlayCo",
+    "lanesHash": [
+      {
+        "id": "ttqfKC",
+        "lane": "a4a720946211a5fb081d5f6fe06b7932cce53541",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "eca5ebcbcc39244cd25f0965f3af5e7a2794ee69"
+      },
+      {
+        "id": "qvkuFE",
+        "lane": "d30adc21b2154f93ec0b67d52ffa9c0a6fa93a8d",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "58cf406b68b649d0dc1d9afc6e0b1c6e17547b20"
+      },
+      {
+        "id": "Msy9AA",
+        "lane": "73f5ed41e683ee0299f8aa6bd4f5edd264cf2633",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "8c772c642061f977dacfb56ba798e3ec8d93c7bd"
+      },
+      {
+        "id": "tSKNSB",
+        "lane": "9cc1fc3da5d28cf1d56c4dae3170c2de008c40f7",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "66e160863f85aab6d6432cc5c7fcdf9cbb32ddf2"
+      },
+      {
+        "id": "YYudfH",
+        "lane": "c8e5fc1fec4335fe42ca8c9120db5d9332815baf",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "ff24578cf51c74f9140b782c15b8567dd28fdd7c"
+      },
+      {
+        "id": "pR2GEY",
+        "lane": "90421154913611d9ac91e3059b2458b6e0595fa3",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "2ce246f73258fce1d678ca55b83079e906147c79"
+      },
+      {
+        "id": "RvQmee",
+        "lane": "e6bc65260c872a17881e85f7ae0dea8446cfab8d",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "4e7a29882e46ad6d4bab1b7de1eb59da67a57f4c"
+      },
+      {
+        "id": "BLpwro",
+        "lane": "fe7d4db38cd43f49447d2ffdc720a87654866f71",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "b424aa6ebc3885be0aeba77266058098a19cc326"
+      },
+      {
+        "id": "BFrWEt",
+        "lane": "bfd90c655631db6251e3a51b8baf2af3bb8d9a00",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "f30995615f66bcc00210ce6a3f53da11c0e7d7ef"
+      },
+      {
+        "id": "9Wcw8n",
+        "lane": "a1311e5baeafdbfa7fe0d008de0328caa8124728",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "a91380edd32344f4585911a074c9ba89e8536065"
+      },
+      {
+        "id": "7uam3N",
+        "lane": "bdcb3fa8f31341aeaadd597c4e95809a6bfeed5a",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "7b51f14a7e05b2889af1b7906d2588d6fe0426fe"
+      },
+      {
+        "id": "AeChzF",
+        "lane": "54ad19ed20477ebab10be6a27c7f4e28ce52694a",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "84fad4123bb342555fd8ca5e2df707041005ee19"
+      },
+      {
+        "id": "c9nMgP",
+        "lane": "33969ab053b02807575379c105237e626dff3d03",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "151a8b0b8db90517b0d842eddb6c45ba1be350a3"
+      },
+      {
+        "id": "2Fdh8f",
+        "lane": "bdd6de9cfbb680104d3364a2b7cae331c8a2040b",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "4d962a432ab864ddb9b9948ff7f38c908c2f304c"
+      },
+      {
+        "id": "kmThdb",
+        "lane": "ad7c684a6365e9f431742f1c6f44ab7cf1d44c2c",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "51c753c58afff15567a92422844ec459e1ecd835"
+      },
+      {
+        "id": "J8pNrG",
+        "lane": "b6e8e0db7ac19bbdcacea024065a6bebaae7989d",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "3848f652e5a97a792babc96aece2c4e0b221f463"
+      },
+      {
+        "id": "sjM7W4",
+        "lane": "458b1f07a885260e5d218e9d531e2ce7a67b1d6e",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "f60e5c968ae5e6bbae3a014ccc818082992d1836"
+      },
+      {
+        "id": "Cobq7N",
+        "lane": "938da02c9aa246dadcdfc4e9f2a2b79f8095f7dd",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "adf222f41ec8ff90507c4fe4cd87177e8a752656"
+      },
+      {
+        "id": "yGaXh2",
+        "lane": "01ff2c396e852f51e845c229f996e0c5f8cc0c33",
+        "from": "30b9639301e6dc52d3d60b76305b935cf543b329",
+        "to": "726168581645252b848cd55620796f5ab009f2c7"
+      }
+    ],
+    "deleted": false,
+    "updated": {
+      "by": "pYFLYFDMJEnKADY3h",
+      "at": { "$date": "2019-11-08T14:30:53.052+01:00" }
+    }
+  },
+  {
+    "_id": "3ecjkjCcskEJph8W6",
+    "title": "Belgium - Spain - Standard - Road - 04092018",
+    "template": {
+      "type": "road"
+    },
+    "customerId": "S65957",
+    "carrierId": "C75701",
+    "mode": "road",
+    "category": "standard",
+    "type": "contract",
+    "currency": "EUR",
+    "validFrom": { "$date": "2018-09-03T02:00:00.000+02:00" },
+    "validTo": { "$date": "2019-11-30T01:00:00.000+01:00" },
+    "terms": {
+      "days": 30,
+      "condition": "days"
+    },
+    "specialRequirements": [],
+    "uoms": {
+      "allowed": ["pal"]
+    },
+    "status": "active",
+    "created": {
+      "by": "jsBor6o3uRBTFoRQY",
+      "at": { "$date": "2018-09-04T23:12:24.531+02:00" }
+    },
+    "creatorId": "S65957",
+    "updates": [
+      {
+        "action": "created",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-09-04T23:12:24.673+02:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-09-04T23:43:48.884+02:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-10-03T19:50:41.527+02:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-10-03T19:51:11.194+02:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-10-03T19:51:28.018+02:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-10-03T19:51:45.302+02:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2018-11-21T11:42:59.612+01:00" }
+      },
+      {
+        "action": "release",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2019-03-25T17:35:53.454+01:00" }
+      },
+      {
+        "action": "draft",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2019-11-19T13:49:21.472+01:00" }
+      },
+      {
+        "action": "activate",
+        "userId": "jsBor6o3uRBTFoRQY",
+        "accountId": "S65957",
+        "ts": { "$date": "2019-11-19T14:01:25.566+01:00" }
+      }
+    ],
+    "defaultLeadTime": {
+      "leadTimeHours": 24,
+      "days": [true, true, true, true, true, false, false],
+      "frequency": "weekly"
+    },
+    "volumes": [
+      {
+        "uom": "pal",
+        "serviceLevel": "LTL",
+        "ranges": [
+          {
+            "from": 1,
+            "to": 5,
+            "id": "obsFDt"
+          },
+          {
+            "from": 5,
+            "to": 10,
+            "id": "uMMu4W"
+          },
+          {
+            "from": 10,
+            "to": 15,
+            "id": "QfyAyp"
+          },
+          {
+            "from": 15,
+            "to": 99,
+            "id": "2ypJrf"
+          }
+        ],
+        "id": "uZhkc4"
+      }
+    ],
+    "lanes": [
+      {
+        "name": "Granada",
+        "from": {
+          "zones": [
+            {
+              "CC": "BE",
+              "from": "*"
+            }
+          ]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "18000",
+              "to": "18999"
+            }
+          ]
+        },
+        "incoterm": "FCA",
+        "id": "LCHoEc"
+      },
+      {
+        "name": "Madrid",
+        "from": {
+          "zones": [
+            {
+              "CC": "BE",
+              "from": "*"
+            }
+          ]
+        },
+        "to": {
+          "zones": [
+            {
+              "CC": "ES",
+              "from": "28000",
+              "to": "28999"
+            }
+          ]
+        },
+        "incoterm": "FCA",
+        "id": "PMxLwW"
+      }
+    ],
+    "fuelIndexId": "9Wwis9MDy2hhXi2tb",
+    "leadTimes": [
+      {
+        "lane": {
+          "name": "Granada",
+          "from": {
+            "zones": [
+              {
+                "CC": "BE",
+                "from": "*"
+              }
+            ]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "18000",
+                "to": "18999"
+              }
+            ]
+          }
+        },
+        "leadTimeHours": 48,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly"
+      },
+      {
+        "lane": {
+          "name": "Madrid",
+          "from": {
+            "zones": [
+              {
+                "CC": "BE",
+                "from": "*"
+              }
+            ]
+          },
+          "to": {
+            "zones": [
+              {
+                "CC": "ES",
+                "from": "28000",
+                "to": "28999"
+              }
+            ]
+          }
+        },
+        "leadTimeHours": 48,
+        "days": [true, true, true, true, true, false, false],
+        "frequency": "weekly"
+      }
+    ],
+    "summary": {
+      "laneCount": 2,
+      "rateCount": 11
+    },
+    "carrierName": "Carrier PlayCo",
+    "lanesHash": [
+      {
+        "id": "LCHoEc",
+        "lane": "06eeb613204caeeee94231a81f988a02cb6e7c0f",
+        "from": "d48abf26e9dd56baf77aef4712f9080c26bf3b8b",
+        "to": "c0b8cdedbaba8ab0031ddeaff0b2e2b394ddf242"
+      },
+      {
+        "id": "PMxLwW",
+        "lane": "003143de6664efd8d644a7c0fd12eccd13ead3ec",
+        "from": "d48abf26e9dd56baf77aef4712f9080c26bf3b8b",
+        "to": "eca5ebcbcc39244cd25f0965f3af5e7a2794ee69"
+      }
+    ],
+    "deleted": false,
+    "updated": {
+      "by": "jsBor6o3uRBTFoRQY",
+      "at": { "$date": "2019-11-19T14:01:26.052+01:00" }
+    }
+  }
+]

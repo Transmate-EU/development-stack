@@ -1,0 +1,292 @@
+[
+  {
+    "_id": "S65957",
+    "name": "Globex",
+    "created": {
+      "by": "3MDFCAfMBDzTkHkST",
+      "at": { "$date": "2017-06-16T19:03:28.369Z" }
+    },
+    "logo": "//files.transmate.eu/logos/S65957/EE2",
+    "slug": "app",
+    "description": "The headquarters of the Globex Corporation is located in Zaventem Belgium, a company producing and selling doormats.",
+    "profile": {
+      "sites": [
+        {
+          "name": "Website",
+          "url": "www.transmate.eu"
+        }
+      ],
+      "contacts": [
+        {
+          "contactType": "general",
+          "mail": "noel@ekspose.me",
+          "phone": "092252525"
+        }
+      ],
+      "services": ["transport", "groupage"],
+      "certificates": ["ISO 14001", "ISO 9001"],
+      "locations": [
+        {
+          "name": "Head office",
+          "description": "",
+          "address": "edingsesteenweg 60",
+          "PC": "1755",
+          "place": "Gooik",
+          "country": "be",
+          "locationType": ["office", "warehouse"],
+          "shippingModes": ["road", "air"]
+        }
+      ],
+      "footprint": ["gb", "pt", "es"]
+    },
+    "features": [
+      "invoice-check",
+      "price-list-create",
+      "price-list-request",
+      "price-list-share",
+      "price-lookup",
+      "price-list",
+      "price-analysis",
+      "tender",
+      "shipment",
+      "partner",
+      "location",
+      "reporting",
+      "shipment-new-items",
+      "non-conformances"
+    ],
+    "type": "shipper",
+    "partners": [],
+    "deleted": false
+  },
+  {
+    "_id": "C75701",
+    "name": "Carrier PlayCo",
+    "created": {
+      "by": "L2k5T8GmkHstmtr6C",
+      "at": { "$date": "2016-10-06T12:33:06.970+02:00" }
+    },
+    "features": [
+      "shipment",
+      "partner",
+      "location",
+      "price-analysis",
+      "price-list",
+      "tender",
+      "reporting",
+      "invoice-check",
+      "price-list-create",
+      "price-list-request",
+      "price-list-share",
+      "price-lookup"
+    ],
+    "banner": "//files.transmate.eu/banners/C75701/qz6",
+    "logo": "//files.transmate.eu/logos/C75701/PQn",
+    "description": "Whether by air, by ocean, or by ground, PlayCo’s professionals apply a wealth of routing and pricing knowledge to move your freight in the most efficient, cost-effective, and reliable manner for your specific needs.",
+    "profile": {
+      "sites": [
+        {
+          "name": "Website",
+          "url": "http://www.playco.be"
+        }
+      ],
+      "locations": [
+        {
+          "name": "Central Distribution Center",
+          "description": "",
+          "address": "Industriepark",
+          "PC": "9000",
+          "place": "Gent",
+          "country": "BE",
+          "locationType": ["warehouse", "cross docking"],
+          "shippingModes": ["road", "ocean", "air"]
+        }
+      ]
+    },
+    "shortlistedBy": ["S55675"],
+    "theme": {
+      "colors": ["#214481", "#2E5AA9"]
+    },
+    "type": "carrier",
+    "partners": [
+      {
+        "accountId": "S03889",
+        "status": "inactive",
+        "partnerShipId": "pbr68yAeAkozKRQgD",
+        "requestor": true
+      },
+      {
+        "accountId": "C54908",
+        "status": "active",
+        "partnerShipId": "SsPPbHjpTxs9uQCGH",
+        "requestor": true
+      },
+      {
+        "accountId": "S35358",
+        "status": "requested",
+        "partnerShipId": "qRkfMYuCtq25BYhzE",
+        "requestor": true
+      },
+      {
+        "accountId": "S17399",
+        "status": "active",
+        "partnerShipId": "8rPGrPm3K7zszgNT2",
+        "requestor": true
+      },
+      {
+        "accountId": "P79908",
+        "status": "active",
+        "partnerShipId": "J7W6tqzMDwwZiR2Tv",
+        "requestor": false
+      },
+      {
+        "accountId": "S79207",
+        "status": "requested",
+        "partnerShipId": "SvCX6mE9oiyb4f4KZ",
+        "requestor": true
+      },
+      {
+        "accountId": "S04180",
+        "status": "active",
+        "partnerShipId": "c4QbFCGztPHajHKf9",
+        "requestor": true
+      },
+      {
+        "accountId": "S07581",
+        "status": "active",
+        "partnerShipId": "dSgX25F7Ampk3ThoX",
+        "requestor": false
+      },
+      {
+        "accountId": "S70113",
+        "status": "requested",
+        "partnerShipId": "5aEpXQMx7MNemboRZ",
+        "requestor": true
+      },
+      {
+        "accountId": "S65957",
+        "status": "active",
+        "partnerShipId": "ZkxAnzy7gafduZxGS",
+        "requestor": true
+      },
+      {
+        "accountId": "C74823",
+        "status": "requested",
+        "partnerShipId": "f9ztrWegjuivxp7xy",
+        "requestor": false
+      },
+      {
+        "accountId": "S55675",
+        "status": "active",
+        "partnerShipId": "KrDPet7XaaPP32SF5",
+        "requestor": true
+      },
+      {
+        "accountId": "S94603",
+        "status": "inactive",
+        "partnerShipId": "QgThoZ7sMNRguQFXx",
+        "requestor": true
+      },
+      {
+        "accountId": "C74823",
+        "status": "requested",
+        "partnerShipId": "nCfrDQuDBq4WScnoE",
+        "requestor": false
+      },
+      {
+        "accountId": "S23173",
+        "status": "inactive",
+        "requestor": false
+      },
+      {
+        "accountId": "C113071",
+        "status": "requested",
+        "requestor": true
+      },
+      {
+        "accountId": "C113155",
+        "status": "requested",
+        "requestor": true
+      },
+      {
+        "accountId": "C83379",
+        "status": "pending"
+      },
+      {
+        "accountId": "S59606",
+        "status": "pending"
+      },
+      {
+        "accountId": "S23173",
+        "status": "requested",
+        "requestor": true
+      },
+      {
+        "accountId": "S23173",
+        "status": "requested",
+        "requestor": false
+      }
+    ],
+    "updated": {
+      "by": "K3hqjR5zBoDZRccEx",
+      "at": "2019-10-23T14:30:33.707+02:00"
+    },
+    "deleted": false
+  },
+  {
+    "_id": "C11051",
+    "name": "Carrier Beta",
+    "created": {
+      "by": "EMWdRxYBe3w4J4neF",
+      "at": { "$date": "2016-11-10T09:52:52.126+01:00" }
+    },
+    "features": [
+      "invoice-check",
+      "price-list-create",
+      "price-list-request",
+      "price-list-share",
+      "price-lookup",
+      "price-list",
+      "price-analysis",
+      "tender",
+      "shipment",
+      "partner",
+      "location",
+      "reporting"
+    ],
+    "profile": {
+      "sites": [
+        {
+          "name": "Website",
+          "url": "http://www.carrierbeta.be"
+        }
+      ],
+      "contacts": [
+        {
+          "contactType": "general",
+          "mail": "info@carrierbeta.com",
+          "phone": "+32 2 5674345"
+        }
+      ],
+      "locations": [
+        {
+          "name": "HQ Brussels",
+          "description": "",
+          "address": "diegemsebaan 456",
+          "PC": "1630",
+          "place": "Zaventem",
+          "country": "be",
+          "locationType": ["office", "warehouse"],
+          "shippingModes": ["road", "air"]
+        }
+      ]
+    },
+    "logo": "//files.transmate.eu/logos/C11051/be9",
+    "banner": "//files.transmate.eu/banners/C11051/bBp",
+    "slug": "carrierbeta",
+    "description": "Ut eleifend ante eget risus viverra, et tempus lectus maximus. Integer fringilla enim a nibh suscipit blandit. Integer a nunc quis turpis luctus iaculis. Nunc varius laoreet sollicitudin. Maecenas at metus ante. Aliquam sapien augue, pretium at est et, volutpat elementum metus. In volutpat sem non sapien mattis, a volutpat enim suscipit. Suspendisse et nisl dolor. Cras egestas elementum nisl suscipit commodo. Fusce commodo aliquam dapibus.",
+    "type": "carrier",
+    "partners": [],
+    "deleted": false
+  }
+]

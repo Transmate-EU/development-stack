@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "ggDTzCwq8ezPEpWdA",
+    "NameWoDiacritics": "New York",
+    "IATA": null,
+    "Coordinates": "4042N 07400W",
+    "countryCode": "US",
+    "locationCode": "NYC",
+    "name": "New York",
+    "subdivision": "NY",
+    "status": "AI",
+    "function": "12345---",
+    "remarks": null,
+    "movements": "100",
+    "fnList": ["port", "rail", "road", "airport", "postal office"]
+  },
+  {
+    "_id": "g7migJdJCHCNRron3",
+    "NameWoDiacritics": "Shanghai Hongqiao International Apt",
+    "IATA": null,
+    "Coordinates": null,
+    "countryCode": "CN",
+    "locationCode": "SHA",
+    "name": "Shanghai Hongqiao International Apt",
+    "subdivision": "31",
+    "status": "AS",
+    "function": "---4----",
+    "remarks": null,
+    "movements": "0",
+    "fnList": ["airport"]
+  },
+  {
+    "_id": "3c5hLvke4iKNjXnhM",
+    "NameWoDiacritics": "Antwerpen, Antwerp",
+    "IATA": null,
+    "Coordinates": "5113N 00425E",
+    "countryCode": "BE",
+    "locationCode": "ANR",
+    "name": "Antwerpen",
+    "subdivision": "VAN",
+    "status": "AI",
+    "function": "12345---",
+    "remarks": null,
+    "latLng": {
+      "lat": 51.2409796,
+      "lng": 4.407437800000025
+    },
+    "movements": "328",
+    "fnList": ["port", "rail", "road", "airport", "postal office"]
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "_id": "zFRTWDT2JJKthiCEP",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Madrid",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "28000", "to": "28999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "PMxLwW",
+      "sortIndex": 1
+    },
+    "goodsDG": false,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 5, "to": 10, "id": "uMMu4W", "name": "5-10 pal", "sortIndex": 1 }, "id": "uZhkc4" },
+    "laneId": "PMxLwW",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "uMMu4W",
+    "name": "Madrid (5-10 pal) - non-DG",
+    "quantity": { "count": 69, "amount": 7.5, "equipment": 1 }
+  },
+  {
+    "_id": "xbookgpk6mdAXsqrY",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Madrid",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "28000", "to": "28999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "PMxLwW",
+      "sortIndex": 1
+    },
+    "goodsDG": true,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 1, "to": 5, "id": "obsFDt", "name": "1-5 pal", "sortIndex": 0 }, "id": "uZhkc4" },
+    "laneId": "PMxLwW",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "obsFDt",
+    "name": "Madrid (1-5 pal) - DG",
+    "quantity": { "count": 75, "amount": 3, "equipment": 1 }
+  },
+  {
+    "_id": "jQiAjDFThuWK5v4TF",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Madrid",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "28000", "to": "28999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "PMxLwW",
+      "sortIndex": 1
+    },
+    "goodsDG": false,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 15, "to": 99, "id": "2ypJrf", "name": "15-99 pal", "sortIndex": 3 }, "id": "uZhkc4" },
+    "laneId": "PMxLwW",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "2ypJrf",
+    "name": "Madrid (15-99 pal) - non-DG",
+    "quantity": { "count": 19, "amount": 57, "equipment": 1 }
+  },
+  {
+    "_id": "i68fh6JELDNsaoPzc",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Madrid",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "28000", "to": "28999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "PMxLwW",
+      "sortIndex": 1
+    },
+    "goodsDG": true,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 5, "to": 10, "id": "uMMu4W", "name": "5-10 pal", "sortIndex": 1 }, "id": "uZhkc4" },
+    "laneId": "PMxLwW",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "uMMu4W",
+    "name": "Madrid (5-10 pal) - DG",
+    "quantity": { "count": 91, "amount": 7.5, "equipment": 1 }
+  },
+  {
+    "_id": "ggS8C4hSowNtKDvLW",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Granada",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "18000", "to": "18999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "LCHoEc",
+      "sortIndex": 0
+    },
+    "goodsDG": false,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 1, "to": 5, "id": "obsFDt", "name": "1-5 pal", "sortIndex": 0 }, "id": "uZhkc4" },
+    "laneId": "LCHoEc",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "obsFDt",
+    "name": "Granada (1-5 pal) - non-DG",
+    "quantity": { "count": 58, "amount": 3, "equipment": 1 }
+  },
+  {
+    "_id": "fHgYuXHyKw3ABTvXi",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Granada",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "18000", "to": "18999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "LCHoEc",
+      "sortIndex": 0
+    },
+    "goodsDG": true,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 10, "to": 15, "id": "QfyAyp", "name": "10-15 pal", "sortIndex": 2 }, "id": "uZhkc4" },
+    "laneId": "LCHoEc",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "QfyAyp",
+    "name": "Granada (10-15 pal) - DG",
+    "quantity": { "count": 86, "amount": 12.5, "equipment": 1 }
+  },
+  {
+    "_id": "ZDHXeZCzPgsp9EDMg",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Madrid",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "28000", "to": "28999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "PMxLwW",
+      "sortIndex": 1
+    },
+    "goodsDG": false,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 10, "to": 15, "id": "QfyAyp", "name": "10-15 pal", "sortIndex": 2 }, "id": "uZhkc4" },
+    "laneId": "PMxLwW",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "QfyAyp",
+    "name": "Madrid (10-15 pal) - non-DG",
+    "quantity": { "count": 5, "amount": 12.5, "equipment": 1 }
+  },
+  {
+    "_id": "RxMGcQHK2XW5G5auJ",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Granada",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "18000", "to": "18999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "LCHoEc",
+      "sortIndex": 0
+    },
+    "goodsDG": false,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 15, "to": 99, "id": "2ypJrf", "name": "15-99 pal", "sortIndex": 3 }, "id": "uZhkc4" },
+    "laneId": "LCHoEc",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "2ypJrf",
+    "name": "Granada (15-99 pal) - non-DG",
+    "quantity": { "count": 69, "amount": 57, "equipment": 1 }
+  },
+  {
+    "_id": "QSBwB242Fz9mK2apu",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Granada",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "18000", "to": "18999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "LCHoEc",
+      "sortIndex": 0
+    },
+    "goodsDG": true,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 5, "to": 10, "id": "uMMu4W", "name": "5-10 pal", "sortIndex": 1 }, "id": "uZhkc4" },
+    "laneId": "LCHoEc",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "uMMu4W",
+    "name": "Granada (5-10 pal) - DG",
+    "quantity": { "count": 2, "amount": 7.5, "equipment": 1 }
+  },
+  {
+    "_id": "MneMmtkrvdJMox3kW",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Granada",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "18000", "to": "18999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "LCHoEc",
+      "sortIndex": 0
+    },
+    "goodsDG": false,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 5, "to": 10, "id": "uMMu4W", "name": "5-10 pal", "sortIndex": 1 }, "id": "uZhkc4" },
+    "laneId": "LCHoEc",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "uMMu4W",
+    "name": "Granada (5-10 pal) - non-DG",
+    "quantity": { "count": 57, "amount": 7.5, "equipment": 1 }
+  },
+  {
+    "_id": "MC2TWi7RBQmKnYwJs",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Madrid",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "28000", "to": "28999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "PMxLwW",
+      "sortIndex": 1
+    },
+    "goodsDG": true,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 15, "to": 99, "id": "2ypJrf", "name": "15-99 pal", "sortIndex": 3 }, "id": "uZhkc4" },
+    "laneId": "PMxLwW",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "2ypJrf",
+    "name": "Madrid (15-99 pal) - DG",
+    "quantity": { "count": 25, "amount": 57, "equipment": 1 }
+  },
+  {
+    "_id": "JQwfk4BYLSLwd5AKJ",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Madrid",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "28000", "to": "28999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "PMxLwW",
+      "sortIndex": 1
+    },
+    "goodsDG": true,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 10, "to": 15, "id": "QfyAyp", "name": "10-15 pal", "sortIndex": 2 }, "id": "uZhkc4" },
+    "laneId": "PMxLwW",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "QfyAyp",
+    "name": "Madrid (10-15 pal) - DG",
+    "quantity": { "count": 46, "amount": 12.5, "equipment": 1 }
+  },
+  {
+    "_id": "JJr7NoopMReibaqti",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Granada",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "18000", "to": "18999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "LCHoEc",
+      "sortIndex": 0
+    },
+    "goodsDG": true,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 15, "to": 99, "id": "2ypJrf", "name": "15-99 pal", "sortIndex": 3 }, "id": "uZhkc4" },
+    "laneId": "LCHoEc",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "2ypJrf",
+    "name": "Granada (15-99 pal) - DG",
+    "quantity": { "count": 73, "amount": 57, "equipment": 1 }
+  },
+  {
+    "_id": "9AXCZwq5cnWa96BLL",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Madrid",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "28000", "to": "28999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "PMxLwW",
+      "sortIndex": 1
+    },
+    "goodsDG": false,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 1, "to": 5, "id": "obsFDt", "name": "1-5 pal", "sortIndex": 0 }, "id": "uZhkc4" },
+    "laneId": "PMxLwW",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "obsFDt",
+    "name": "Madrid (1-5 pal) - non-DG",
+    "quantity": { "count": 61, "amount": 3, "equipment": 1 }
+  },
+  {
+    "_id": "4w4LoLoMLy74m8H6u",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Granada",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "18000", "to": "18999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "LCHoEc",
+      "sortIndex": 0
+    },
+    "goodsDG": false,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 10, "to": 15, "id": "QfyAyp", "name": "10-15 pal", "sortIndex": 2 }, "id": "uZhkc4" },
+    "laneId": "LCHoEc",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "QfyAyp",
+    "name": "Granada (10-15 pal) - non-DG",
+    "quantity": { "count": 21, "amount": 12.5, "equipment": 1 }
+  },
+  {
+    "_id": "2Lhsa87bzfSbm67uF",
+    "tenderId": "zx43GEoqXk66umzNS",
+    "lanes": {
+      "name": "Granada",
+      "from": { "zones": [{ "CC": "BE", "from": "*" }], "locations": [], "address": [] },
+      "to": { "zones": [{ "CC": "ES", "from": "18000", "to": "18999" }], "locations": [], "address": [] },
+      "incoterm": "FCA",
+      "id": "LCHoEc",
+      "sortIndex": 0
+    },
+    "goodsDG": true,
+    "volumes": { "uom": "pal", "serviceLevel": "LTL", "ranges": { "from": 1, "to": 5, "id": "obsFDt", "name": "1-5 pal", "sortIndex": 0 }, "id": "uZhkc4" },
+    "laneId": "LCHoEc",
+    "volumeGroupId": "uZhkc4",
+    "volumeRangeId": "obsFDt",
+    "name": "Granada (1-5 pal) - DG",
+    "quantity": { "count": 27, "amount": 3, "equipment": 1 }
+  }
+]

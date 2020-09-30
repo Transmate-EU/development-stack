@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "TEMPL:SPOT-SHIPM-SINGLE",
+    "title": "Spot template",
+    "description": "Generic template for spot rates - single cost",
+    "public": true,
+    "template": {
+      "type": "spot"
+    },
+    "currency": "EUR",
+    "category": "standard",
+    "type": "spot",
+    "mode": "road",
+    "uoms": {
+      "allowed": [
+        "kg"
+      ]
+    },
+    "defaultLeadTime": {
+      "leadTimeHours": 24,
+      "days": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "frequency": "weekly"
+    },
+    "terms": {
+      "days": 30,
+      "condition": "days"
+    },
+    "status": "draft",
+    "shipments": [],
+    "charges": [
+      {
+        "id": "kvrTMnuzXcpMvACTg",
+        "name": "Base rate",
+        "type": "calculated",
+        "costId": "o6fLThAWhaWW3uDaj",
+        "currency": "EUR",
+        "multiplier": "shipment"
+      }
+    ],
+    "settings": {
+      "canEditCurrency": true,
+      "canEditMultiplier": false,
+      "canEditCharges": true,
+      "canEditLanes": false,
+      "canEditLeadTimes": true,
+      "canCommentRates": false
+    }
+  }
+]

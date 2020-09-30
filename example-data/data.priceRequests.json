@@ -1,0 +1,315 @@
+[
+  {
+    "_id": "zgSR5RRWJoHMDSEDy",
+    "type": "spot",
+    "status": "requested",
+    "version": 1,
+    "currency": "EUR",
+    "settings": {
+      "templateId": "TEMPL:SPOT-SHIPM-SINGLE",
+      "templateSettings": {
+        "canEditCurrency": true,
+        "canEditMultiplier": true,
+        "canEditCharges": true,
+        "canEditLanes": true,
+        "canEditLeadTimes": true,
+        "canCommentRates": true,
+        "canEditAdditionalCosts": true
+      }
+    },
+    "creatorId": "S65957",
+    "requestedBy": "jsBor6o3uRBTFoRQY",
+    "dueDate": {
+      "$date": "2020-09-16T07:00:00.000Z"
+    },
+    "customerId": "S65957",
+    "updated": {
+      "by": "jsBor6o3uRBTFoRQY",
+      "at": {
+        "$date": "2020-09-17T08:41:00.995Z"
+      },
+      "price_requests": "synced"
+    },
+    "created": {
+      "by": "jsBor6o3uRBTFoRQY",
+      "at": {
+        "$date": "2020-09-13T19:19:31.260Z"
+      }
+    },
+    "deleted": false,
+    "title": "TEST - price request",
+    "items": [
+      {
+        "shipmentId": "2jG2mZFcaFzqaThcr",
+        "params": {
+          "shipmentId": "2jG2mZFcaFzqaThcr",
+          "from": {
+            "addressId": "eJoAoWcvLkxWFDKit",
+            "countryCode": "BH"
+          },
+          "to": {
+            "addressId": "ipuQ4mc9ecrQRTCeo",
+            "zipCode": "5380",
+            "countryCode": "BE"
+          },
+          "date": "2020-09-12",
+          "goods": {
+            "quantity": {}
+          },
+          "equipments": [
+            {
+              "type": "40' HC CNT",
+              "quantity": 1
+            }
+          ]
+        },
+        "shipment": {
+          "from": {
+            "location": {
+              "latLng": {
+                "lat": 26.03112,
+                "lng": 50.50501
+              },
+              "countryCode": "BH",
+              "name": "GP BHR / DO & CO / Paddock",
+              "addressId": "eJoAoWcvLkxWFDKit",
+              "address": {
+                "city": "Horat Anaqa",
+                "street": "Road 2604"
+              },
+              "isValidated": true
+            },
+            "date": "2020-11-30T09:00:00.000Z"
+          },
+          "to": {
+            "location": {
+              "latLng": {
+                "lat": 50.53441,
+                "lng": 4.97003
+              },
+              "countryCode": "BE",
+              "zipCode": "5380",
+              "name": "OPTIMADE",
+              "addressId": "ipuQ4mc9ecrQRTCeo",
+              "address": {
+                "city": "Fernelmont",
+                "state": "Wallonia",
+                "street": "Rue Léopold Genicot"
+              },
+              "isValidated": true
+            },
+            "date": "2021-01-17T23:00:00.000Z"
+          },
+          "goods": {
+            "quantity": {}
+          }
+        },
+        "number": "J2FO3W2W",
+        "validated": true,
+        "references": {
+          "number": "SHPT24"
+        }
+      }
+    ],
+    "calculation": {
+      "items": [
+        {
+          "shipmentId": "2jG2mZFcaFzqaThcr",
+          "priceLists": [
+            null,
+            {
+              "accountId": "C21014",
+              "carrierName": "RPM Event Logistics Ltd",
+              "priceListId": "XTkohn85HPkAhDxCu",
+              "title": "PR_0913-EDY_V1 by C21014 2020-09-16",
+              "totalCost": 5211,
+              "leadTime": 48,
+              "isCheapest": true,
+              "isFastest": true
+            },
+            null
+          ]
+        }
+      ],
+      "totals": [
+        {
+          "accountId": "C26168",
+          "priceListId": null,
+          "name": "DHL Global Forwarding",
+          "totalCost": 0,
+          "leadTime": 0,
+          "validCount": 0,
+          "isIncomplete": true
+        },
+        {
+          "accountId": "C21014",
+          "priceListId": "XTkohn85HPkAhDxCu",
+          "name": "RPM Event Logistics Ltd",
+          "totalCost": 5211,
+          "leadTime": 48,
+          "validCount": 1,
+          "isCheapest": true,
+          "isFastest": true
+        },
+        {
+          "accountId": "C82470",
+          "priceListId": null,
+          "name": "DOCOCarrier",
+          "totalCost": 0,
+          "leadTime": 0,
+          "validCount": 0,
+          "isIncomplete": true
+        }
+      ],
+      "chart": [
+        {
+          "accountId": "C26168",
+          "color": "#483074",
+          "name": "DHL Global Forwarding",
+          "data": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "accountId": "C21014",
+          "color": "#755da1",
+          "name": "RPM Event Logistics Ltd",
+          "data": [
+            [
+              48,
+              5211
+            ]
+          ]
+        },
+        {
+          "accountId": "C82470",
+          "color": "#a791d0",
+          "name": "DOCOCarrier",
+          "data": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "summary": {
+        "bestCost": {
+          "leadTime": 48,
+          "priceListId": "XTkohn85HPkAhDxCu",
+          "name": "RPM Event Logistics Ltd",
+          "totalCost": 5211
+        },
+        "bestLeadTime": {
+          "leadTime": 48,
+          "priceListId": "XTkohn85HPkAhDxCu",
+          "name": "RPM Event Logistics Ltd",
+          "totalCost": 5211
+        },
+        "totalRequested": 3,
+        "totalSubmitted": 1
+      }
+    },
+    "analyseData": [
+      {
+        "shipmentId": "kB8f2JgN5EsnTYAzc",
+        "totalCostEur": 5211,
+        "type": "bid",
+        "carrierName": "RPM Event Logistics Ltd",
+        "km": 5927.32,
+        "shipmentType": "road"
+      }
+    ],
+    "requirements": {
+      "freeDays": {
+        "demurrage": 14,
+        "detention": 14,
+        "condition": "!!!Correct number of CNTs will be adjusted!!!\n\n\nGeneral\nThese terms and conditions are the basis for cooperation between carrier and DO & CO. Other terms and conditions shall not apply \n\nScope and deadlines:\n- Loading and unloading in the presence of the driver: 2 hours demurrage is included in the offer (Over sea (OS) & road). For AZE and RUS separate agreement will be met\n- If the truck / CNT does not arrive within the agreed time, the claim for demurrage will lapse (OS & road)\n- DO & CO and its material suppliers have to be promptly informed about any delay through Trasmate and by the phone (contacts are given in Trasmate or separately provided for events) (OS & road)\n- If the dates/times are fixed, they are binding. Additional costs due to delays caused by forwarder will charged to him (100% of caused costs) (OS & road)\n- For event transports: the deadlines for unloading-inbound and for loading-outbound are given by DO & CO. Deadlines for loading-inbound and unloading-outbound have to be agreed between the transport supplier and the respective material supplier (OS & road)\n- For event transports: inbound for oversea transports: the forwarder offers DO & CO and its suppliers the two best loading dates, indicating the name of the ship, delivery times at the destination port and delivery times at the ring (OS)\n- Demurrages and Detention Free Time (OS):\n- Inbound port of origin > 14 days; Inbound port of destination > 14 days;\n- Outbound port of departure > 21 days; Outbound port of origin > 14 days\n- Demurrage and detention free time for refeer-CNTs will be agreed separately\n- For event transports: Delivery in AUH does NOT take place via Jebel Ali. The delivery via Jebel Ali must be confirmed in writing by the DO & CO (OS)\n- The special permits for the weekend trips to be organized by the freight forwarder and included in the transport costs (OS & road)\n- All trailers / containers should not carry any empty pallets so that the entire loading area is available for DO & CO. The respective truck drivers must be present at loading and are responsible for cargo securing (OS & road)\n- For event transports: Dispatch team available 24 hours (OS)\n- Dispatch coordination has to be ensured by freight forwarder with a DO & CO team on site and with DO & CO Vienna Office as well\n- For event transports: Number of trucks / CNTs per destination & material supplier can be adjusted (OS & road)\n- Trucks cancellation / CNTs - 24 hours prior to loading is free of charge (OS & road)\n- Ordering of an additional truck / CNT on the listed routes 24 hours before loading for the same price (OS & road)\n- For event transports: Forwarder is responsible for customs clearance on the entire route (inbound / outbound both export / import). Costs for customs clearance are included in the transport price (OS & not EU events)\n- For event transports: Carrier takes care of timely receiving of customs documents (F1 document package in excel) from each material supplier (DO & CO, Futurecom, Warmbold etc.)\n- For event transports: The freight forwarder is responsible for the correctness of customs and transport documents\n- For event transports: If, according to F1-documents, customs duties or taxes to be paid (consumer goods), DO & CO must be informed by freight forwarder in advance.  Previously not confirmed charges will not be accepted- Carrier has to provide following information into Transmate (EDI or manually):\n -- Estimated time of loading and delivery (stage block)\n -- Any delays caused by carrier (stage block)\n -- Truck number, CNT number, AWB number, B/L number (items block)\n -- Time confirmation (loading and delivery) (stage block)\n\nEquipment/load securing:\n- For road transports we accept (OS & road):\n- only trucks with at least Euro 4 engines, with 13,6 ldm tautliners\n- For oversea transport we only accept High Cube Containers (40 feet) and standard 20 feet CNTs\n- Ordering of for Reefer CNTs goes separately\n- It is very important that trucks/CNTs come with the necessary load securing equipment. If the necessary equipment is not available, DO & CO can equip trucks with its own equipment and charge costs to freight forwarder\n\nThe list of necessary load securing for road freight (trucks):\n- Belts with ratchets, DAN 500 x 12 PCs\n- Edge plastic protectors (jumbo/XL) x 24 PCs\n- Wooden/aluminium side boards up to the top of trailer\n- Aluminium fixing beams x 2 PCs\n\nOpening hours:\n- Unless otherwise agreed, the opening hours are from 9am to 5pm (OS & road)\n\nBilling (OS & road): \n- All prices are all-in prices (door-to-door) incl. customs clearance and all other additional costs excluding demurrages\n- demurrages and other not planned charges (not included in the transport costs, e.g. cancellation costs), are usually to be billed directly to material supplier (DO & CO, Futurecom, Röder, Warmbold etc.)\n- Any additional extra charges (such as demurrage, cancellation costs, etc.) must be confirmed by DO & CO in writing\n- Billing: per direction (in-/outbound), per supplier (DO & CO, Futurecom etc.)\n- To the e-mail addresses: invoice.uk@doco.com, invoice.lon@doco.com, transport@doco.com\n- A final transport overview (for Inbound & Outbound) must be transmitted to DO & CO before the invoices are issued. This overview is the basis for invoicing for both sides\n\nClaims (OS & road):\nIn the case of a damage caused by transport, settlement/coordination takes place between the forwarding company and the respective material supplier (DO & CO, Futurecom, Röder, Warmbold etc.)\n\nJurisdiction: Vienna\n\nApplicable law: Austria"
+      },
+      "customsClearance": true
+    },
+    "bidders": [
+      {
+        "accountId": "C75701",
+        "name": "Carrier PlayCo",
+        "contacts": [
+          {
+            "firstName": "Carrier",
+            "lastName": "Account",
+            "mail": "carrier@transmate.eu",
+            "phone": "440796620475",
+            "events": [
+              {
+                "event": "send",
+                "timestamp": {
+                  "$date": "2020-09-13T19:38:42.896Z"
+                }
+              },
+              {
+                "event": "delivered",
+                "timestamp": {
+                  "$date": "2020-09-13T19:38:45.000Z"
+                }
+              },
+              {
+                "event": "processed",
+                "timestamp": {
+                  "$date": "2020-09-13T19:38:43.000Z"
+                }
+              },
+              {
+                "event": "open",
+                "timestamp": {
+                  "$date": "2020-09-13T19:52:50.000Z"
+                }
+              },
+              {
+                "event": "open",
+                "timestamp": {
+                  "$date": "2020-09-13T20:34:46.000Z"
+                }
+              }
+            ]
+          }
+        ],
+        "notified": {
+          "$date": "2020-09-13T19:38:42.717Z"
+        },
+        "userIds": [
+          "pYFLYFDMJEnKADY3h"
+        ],
+        "firstSeen": {
+          "$date": "2020-09-14T11:53:41.121Z"
+        },
+        "lastSeen": {
+          "$date": "2020-09-14T14:20:19.740Z"
+        },
+        "viewed": true
+      },
+      {
+        "accountId": "C11051",
+        "name": "Carrier Beta",
+        "contacts": [
+          {
+            "contactType": "key account",
+            "firstName": "Carrier",
+            "lastName": "Beta",
+            "mail": "stephen.byng@rpmel.com",
+            "phone": "00 44 1753 110110"
+          }
+        ],
+        "notified": {
+          "$date": "2020-09-13T19:38:42.661Z"
+        },
+        "userIds": [
+          "pYFLYFDMJEnKADYXX"
+        ],
+        "simpleBids": []
+      }
+    ],
+    "notes": "[{\"children\":[{\"text\":\"!!!Correct number of CNTs will be adjusted!!!\",\"bold\":true,\"italic\":true}]},{\"children\":[{\"text\":\"General\",\"bold\":true}]},{\"children\":[{\"text\":\"These terms and conditions are the basis for cooperation between carrier and DO & CO. Other terms and conditions shall not apply \"}]},{\"children\":[{\"text\":\"Scope and deadlines:\",\"bold\":true}]},{\"children\":[{\"text\":\"- Loading and unloading in the presence of the driver: 2 hours demurrage is included in the offer (Over sea (OS) & road). For AZE and RUS separate agreement will be met\"}]},{\"children\":[{\"text\":\"- If the truck / CNT does not arrive within the agreed time, the claim for demurrage will lapse (OS & road)\"}]},{\"children\":[{\"text\":\"- DO & CO and its material suppliers have to be promptly informed about any delay through Trasmate and by the phone (contacts are given in Trasmate or separately provided for events) (OS & road)\"}]},{\"children\":[{\"text\":\"- If the dates/times are fixed, they are binding. Additional costs due to delays caused by forwarder will charged to him (100% of caused costs) (OS & road)\"}]},{\"children\":[{\"text\":\"- For event transports: the deadlines for unloading-inbound and for loading-outbound are given by DO & CO. Deadlines for loading-inbound and unloading-outbound have to be agreed between the transport supplier and the respective material supplier (OS & road)\"}]},{\"children\":[{\"text\":\"- For event transports: inbound for oversea transports: the forwarder offers DO & CO and its suppliers the two best loading dates, indicating the name of the ship, delivery times at the destination port and delivery times at the ring (OS)\"}]},{\"children\":[{\"text\":\"- Demurrages and Detention Free Time (OS):\"}]},{\"children\":[{\"text\":\"- Inbound port of origin > 14 days; Inbound port of destination > 14 days;\"}]},{\"children\":[{\"text\":\"- Outbound port of departure > 21 days; Outbound port of origin > 14 days\"}]},{\"children\":[{\"text\":\"- Demurrage and detention free time for refeer-CNTs will be agreed separately\"}]},{\"children\":[{\"text\":\"- For event transports: Delivery in AUH does NOT take place via Jebel Ali. The delivery via Jebel Ali must be confirmed in writing by the DO & CO (OS)\"}]},{\"children\":[{\"text\":\"- The special permits for the weekend trips to be organized by the freight forwarder and included in the transport costs (OS & road)\"}]},{\"children\":[{\"text\":\"- All trailers / containers should not carry any empty pallets so that the entire loading area is available for DO & CO. The respective truck drivers must be present at loading and are responsible for cargo securing (OS & road)\"}]},{\"children\":[{\"text\":\"- For event transports: Dispatch team available 24 hours (OS)\"}]},{\"children\":[{\"text\":\"- Dispatch coordination has to be ensured by freight forwarder with a DO & CO team on site and with DO & CO Vienna Office as well\"}]},{\"children\":[{\"text\":\"- For event transports: Number of trucks / CNTs per destination & material supplier can be adjusted (OS & road)\"}]},{\"children\":[{\"text\":\"- Trucks cancellation / CNTs - 24 hours prior to loading is free of charge (OS & road)\"}]},{\"children\":[{\"text\":\"- Ordering of an additional truck / CNT on the listed routes 24 hours before loading for the same price (OS & road)\"}]},{\"children\":[{\"text\":\"- For event transports: Forwarder is responsible for customs clearance on the entire route (inbound / outbound both export / import). Costs for customs clearance are included in the transport price (OS & not EU events)\"}]},{\"children\":[{\"text\":\"- For event transports: Carrier takes care of timely receiving of customs documents (F1 document package in excel) from each material supplier (DO & CO, Futurecom, Warmbold etc.)\"}]},{\"children\":[{\"text\":\"- For event transports: The freight forwarder is responsible for the correctness of customs and transport documents\"}]},{\"children\":[{\"text\":\"- For event transports: If, according to F1-documents, customs duties or taxes to be paid (consumer goods), DO & CO must be informed by freight forwarder in advance.  Previously not confirmed charges will not be accepted- Carrier has to provide following information into Transmate (EDI or manually):\"}]},{\"children\":[{\"text\":\" -- Estimated time of loading and delivery (stage block)\"}]},{\"children\":[{\"text\":\" -- Any delays caused by carrier (stage block)\"}]},{\"children\":[{\"text\":\" -- Truck number, CNT number, AWB number, B/L number (items block)\"}]},{\"children\":[{\"text\":\" -- Time confirmation (loading and delivery) (stage block)\"}]},{\"children\":[{\"text\":\"Equipment/load securing:\",\"bold\":true}]},{\"children\":[{\"text\":\"- For road transports we accept (OS & road):\"}]},{\"children\":[{\"text\":\"- only trucks with at least Euro 4 engines, with 13,6 ldm tautliners\"}]},{\"children\":[{\"text\":\"- For oversea transport we only accept High Cube Containers (40 feet) and standard 20 feet CNTs\"}]},{\"children\":[{\"text\":\"- Ordering of for Reefer CNTs goes separately\"}]},{\"children\":[{\"text\":\"- It is very important that trucks/CNTs come with the necessary load securing equipment. If the necessary equipment is not available, DO & CO can equip trucks with its own equipment and charge costs to freight forwarder\"}]},{\"children\":[{\"text\":\"The list of necessary load securing for road freight (trucks):\"}]},{\"children\":[{\"text\":\"- Belts with ratchets, DAN 500 x 12 PCs\"}]},{\"children\":[{\"text\":\"- Edge plastic protectors (jumbo/XL) x 24 PCs\"}]},{\"children\":[{\"text\":\"- Wooden/aluminium side boards up to the top of trailer\"}]},{\"children\":[{\"text\":\"- Aluminium fixing beams x 2 PCs\"}]},{\"children\":[{\"text\":\"Opening hours:\",\"bold\":true}]},{\"children\":[{\"text\":\"- Unless otherwise agreed, the opening hours are from 9am to 5pm (OS & road)\"}]},{\"children\":[{\"text\":\"Billing (OS & road):\",\"bold\":true},{\"text\":\" \"}]},{\"children\":[{\"text\":\"- All prices are all-in prices (door-to-door) incl. customs clearance and all other additional costs excluding demurrages\"}]},{\"children\":[{\"text\":\"- demurrages and other not planned charges (not included in the transport costs, e.g. cancellation costs), are usually to be billed directly to material supplier (DO & CO, Futurecom, Röder, Warmbold etc.)\"}]},{\"children\":[{\"text\":\"- Any additional extra charges (such as demurrage, cancellation costs, etc.) must be confirmed by DO & CO in writing\"}]},{\"children\":[{\"text\":\"- Billing: per direction (in-/outbound), per supplier (DO & CO, Futurecom etc.)\"}]},{\"children\":[{\"text\":\"- To the e-mail addresses: invoice.uk@doco.com, invoice.lon@doco.com, transport@doco.com\"}]},{\"children\":[{\"text\":\"- A final transport overview (for Inbound & Outbound) must be transmitted to DO & CO before the invoices are issued. This overview is the basis for invoicing for both sides\"}]},{\"children\":[{\"text\":\"Claims (OS & road):\",\"bold\":true}]},{\"children\":[{\"text\":\"In the case of a damage caused by transport, settlement/coordination takes place between the forwarding company and the respective material supplier (DO & CO, Futurecom, Röder, Warmbold etc.)\"}]},{\"children\":[{\"text\":\"Jurisdiction:\",\"bold\":true},{\"text\":\" Vienna\"}]},{\"children\":[{\"text\":\"Applicable law:\",\"bold\":true},{\"text\":\" Austria\"}]},{\"children\":[{\"text\":\"\"}]}]"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "_id": "j958tYA872PAogTDq",
+    "input": "Leonardo da Vincilaan 7, 1930 Zaventem",
+    "street": "Leonardo da Vincilaan",
+    "number": "7",
+    "city": "Zaventem",
+    "zip": "1930",
+    "state": "Vlaanderen",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "location": {
+      "lat": 50.8888189,
+      "lng": 4.458519900000056
+    },
+    "aliases": ["Globex Belgium"],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [4.458519900000056, 50.8888189]
+    },
+    "bus": "",
+    "validated": {
+      "by": "google"
+    },
+    "accounts": [
+      {
+        "id": "S65957",
+        "name": "Globex Belgium",
+        "safety": {
+          "instructions": "<p style=\"margin: 0px 0px 0px 48px; text-indent: -18pt;\"><font color=\"#000000\"><span style=\"margin: 0px;\"><span style=\"margin: 0px;\"><font face=\"Calibri\" size=\"3\">1.</font><span style='font: 7pt \"Times New Roman\"; margin: 0px; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></span></span><span style=\"margin: 0px;\" dir=\"LTR\"></span><font face=\"Calibri\" size=\"3\">Always use safety gloves\nprotects hands while completing manual handling tasks, eg opening barn doors\nand uncoupling </font></font></p>\n\n<p style=\"margin: 0px 0px 0px 48px; text-indent: -18pt;\"><font color=\"#000000\"><span style=\"margin: 0px;\"><span style=\"margin: 0px;\"><font face=\"Calibri\" size=\"3\">2.</font><span style='font: 7pt \"Times New Roman\"; margin: 0px; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></span></span><span style=\"margin: 0px;\" dir=\"LTR\"></span><font face=\"Calibri\" size=\"3\">Always use hazard lights\nwhile reversing in yard and move at slow speed This is to warn other yard users\nthat you are about to reverse and slow speed reduces impact to buffers and\nallows greater manoeuvrability </font></font></p>\n\n<p style=\"margin: 0px 0px 0px 48px; text-indent: -18pt;\"><font color=\"#000000\"><span style=\"margin: 0px;\"><span style=\"margin: 0px;\"><font face=\"Calibri\" size=\"3\">3.</font><span style='font: 7pt \"Times New Roman\"; margin: 0px; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></span></span><span style=\"margin: 0px;\" dir=\"LTR\"></span><font face=\"Calibri\" size=\"3\">Check that the Green Light\nis on. Never use a bay if the lights are not working Check there are no\nobstructions, pedestrians in the vicinity. DO NOT reverse onto the bay if there\nare manoeuvring vehicles either side of your allocated bay. Do not reverse onto\na bay showing a red light </font></font></p>\n\n<p style=\"margin: 0px 0px 0px 48px; text-indent: -18pt;\"><font color=\"#000000\"><span style=\"margin: 0px;\"><span style=\"margin: 0px;\"><font face=\"Calibri\" size=\"3\">4.</font><span style='font: 7pt \"Times New Roman\"; margin: 0px; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></span></span><span style=\"margin: 0px;\" dir=\"LTR\"></span><font face=\"Calibri\" size=\"3\">Pull forward into correct\nposition for reversing</font></font></p>\n\n<p style=\"margin: 0px 0px 10.66px 48px; text-indent: -18pt;\"><font color=\"#000000\"><span style=\"margin: 0px;\"><span style=\"margin: 0px;\"><font face=\"Calibri\" size=\"3\">5.</font><span style='font: 7pt \"Times New Roman\"; margin: 0px; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span></span></span><span style=\"margin: 0px;\" dir=\"LTR\"></span><font face=\"Calibri\" size=\"3\">Open and secure barn doors,\nand remove number plate</font></font></p>\n\n      \n    <font face=\"Calibri\"></font>",
+          "pbm": ["feet", "hand", "head", "ears"]
+        },
+        "hours": "<div>Weekdays: 6am - 10pm</div><div>Weekend: Closed</div>",
+        "certificates": ["ISO 14001"]
+      }
+    ],
+    "linkedAccounts": ["S65957"]
+  },
+  {
+    "_id": "WJNLceXYjFBdYL4YQ",
+    "input": "Av. de Madrid, 43, 28500 Arganda del Rey, Madrid, Spain",
+    "street": "Avenida de Madrid",
+    "number": "43",
+    "city": "Arganda del Rey",
+    "zip": "28500",
+    "state": "Comunidad de Madrid",
+    "country": "Spain",
+    "countryCode": "ES",
+    "location": {
+      "lat": 40.3061528,
+      "lng": -3.465709199999992
+    },
+    "aliases": ["Globex Spain"],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-3.465709199999992, 40.3061528]
+    },
+    "bus": "",
+    "validated": {
+      "by": "google"
+    },
+    "accounts": [
+      {
+        "id": "S65957",
+        "name": "Globex Spain"
+      }
+    ],
+    "linkedAccounts": ["S65957"]
+  },
+  {
+    "_id": "EoeX3PEqCyXhiuyCW",
+    "input": "24, Rue des Albatros – Z.I. Les Meurières  69780 Mions, France",
+    "street": "Rue Paul Emile Victor",
+    "number": "24",
+    "city": "Mions",
+    "zip": "69780",
+    "state": "Auvergne-Rhône-Alpes",
+    "country": "France",
+    "countryCode": "FR",
+    "location": {
+      "lat": 45.6813612,
+      "lng": 4.949486900000011
+    },
+    "aliases": ["Globex  Mions"],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [4.949486900000011, 45.6813612]
+    },
+    "bus": "",
+    "validated": {
+      "by": "google"
+    },
+    "accounts": [
+      {
+        "id": "S65957",
+        "name": "Globex  Mions"
+      }
+    ],
+    "linkedAccounts": ["S65957"]
+  }
+]
